@@ -43,6 +43,27 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![Bun最新发布](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Foven-sh%2Fbun%2Freleases%2Flatest&query=%24.published_at&label=%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F&color=black&labelColor=orange)](https://github.com/oven-sh/bun/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Windows%2064%E4%BD%8D-blue?logo=windows&logoColor=white)](https://github.com/oven-sh/bun/releases/latest/download/bun-windows-x64-baseline.zip)
 
+---
+
+[![最新 Deno 版本](https://img.shields.io/github/v/release/denoland/deno?label=Deno&color=black&labelColor=orange)](https://github.com/denoland/deno/releases/latest)
+[![Deno 最新发布](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fdenoland%2Fdeno%2Freleases%2Flatest&query=%24.published_at&label=%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F&color=black&labelColor=orange)](https://github.com/denoland/deno/releases/latest)
+[![Windows 64位](https://img.shields.io/badge/Windows%2064%E4%BD%8D-blue?logo=windows&logoColor=white)](https://github.com/denoland/deno/releases/latest/download/deno-x86_64-pc-windows-msvc.zip)
+
+---
+
+[![最新 Pixi 版本](https://img.shields.io/github/v/release/prefix-dev/pixi?label=Pixi&color=black&labelColor=orange)](https://github.com/prefix-dev/pixi/releases/latest)
+[![Pixi 最新发布](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fprefix-dev%2Fpixi%2Freleases%2Flatest&query=%24.published_at&label=%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F&color=black&labelColor=orange)](https://github.com/prefix-dev/pixi/releases/latest)
+[![Windows 64位](https://img.shields.io/badge/Windows%2064%E4%BD%8D-blue?logo=windows&logoColor=white)](https://github.com/prefix-dev/pixi/releases/latest/download/pixi-x86_64-pc-windows-msvc.zip)
+
+---
+
+
+---
+
+
+---
+
+
 
 
 
