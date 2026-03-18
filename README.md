@@ -1,11 +1,19 @@
+
+---
+
 [![最新 aria2 版本](https://img.shields.io/github/v/release/aria2/aria2?label=Aria2&color=black&labelColor=orange)](https://github.com/aria2/aria2/releases/latest)
+
 批量下载至CMD当前目录的路径 
 —— [BA.bat](https://github.com/classronin/MyDocs/raw/refs/heads/main/Scripts/Aria2c/BA.bat)
 ```
 ba https://.../10*.jpg   # 请输入网址模板 (使用 * 代替数字部分，如 https://.../10*.jpg)
 01-21                    # 请输入数字范围 (格式如 01-21 )
 ```
+
+---
+
 [![最新版本](https://img.shields.io/github/v/release/surge-downloader/Surge?label=Surge&color=black&labelColor=orange)](https://github.com/surge-downloader/Surge/releases/latest)
+
 批量下载至CMD当前目录的路径 
 —— [BS.bat](https://github.com/classronin/MyDocs/raw/refs/heads/main/Scripts/Surge/BS.bat)
 ```
@@ -32,10 +40,6 @@ s https://...zip   # 下载至CMD当前目录的路径
 ---
 
 
----
-
-
----
 
 
 
