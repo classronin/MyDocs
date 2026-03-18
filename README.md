@@ -18,6 +18,17 @@ bs https://.../10*.jpg   # 请输入网址模板 (使用 * 代替数字部分，
 s https://...zip   # 下载至CMD当前目录的路径
 ```
 
+---
+
+
+
+UV版本： [![GitHub Release](https://img.shields.io/github/v/release/astral-sh/uv)](https://github.com/astral-sh/uv/releases/latest) 
+[uv-x86_64-pc-windows-msvc.zip](https://github.com/astral-sh/uv/releases/latest/download/uv-x86_64-pc-windows-msvc.zip)
+
+
+
+
+
 
 
 
