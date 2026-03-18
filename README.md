@@ -39,7 +39,9 @@ s https://...zip   # 下载至CMD当前目录的路径
 
 ---
 
-
+[![最新Bun版本](https://img.shields.io/github/v/release/oven-sh/bun?label=Bun&color=black&labelColor=orange)](https://github.com/oven-sh/bun/releases/latest)
+[![Bun最新发布](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Foven-sh%2Fbun%2Freleases%2Flatest&query=%24.published_at&label=%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F&color=black&labelColor=orange)](https://github.com/oven-sh/bun/releases/latest)
+[![Windows 64位](https://img.shields.io/badge/Windows%2064%E4%BD%8D-blue?logo=windows&logoColor=white)](https://github.com/oven-sh/bun/releases/latest/download/bun-windows-x64-baseline.zip)
 
 
 
