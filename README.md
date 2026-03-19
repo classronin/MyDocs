@@ -86,7 +86,12 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![KeePassXC 最新发布](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fkeepassxreboot%2Fkeepassxc%2Freleases%2Flatest&query=%24.published_at&label=%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F&color=black&labelColor=orange)](https://github.com/keepassxreboot/keepassxc/releases/latest)
 
 ---
-### AI模型平台
+### AI
+
+[![最新 Ollama 版本](https://img.shields.io/github/v/release/ollama/ollama?label=Ollama&color=black&labelColor=orange)](https://github.com/ollama/ollama/releases/latest)
+[![Ollama 最新发布](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Follama%2Follama%2Freleases%2Flatest&query=%24.published_at&label=%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F&color=black&labelColor=orange)](https://github.com/ollama/ollama/releases/latest)
+[![下载 Ollama for Windows](https://img.shields.io/badge/下载%20Ollama%20Windows-blue?logo=windows&logoColor=white)](https://github.com/ollama/ollama/releases/latest/download/OllamaSetup.exe)
+
 
 [![最新 ComfyUI 版本](https://img.shields.io/github/v/release/Comfy-Org/ComfyUI?label=ComfyUI&color=black&labelColor=orange)](https://github.com/Comfy-Org/ComfyUI/releases/latest)
 [![ComfyUI 最新发布](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2FComfy-Org%2FComfyUI%2Freleases%2Flatest&query=%24.published_at&label=%E6%9B%B4%E6%96%B0%E6%97%A5%E6%9C%9F&color=black&labelColor=orange)](https://github.com/Comfy-Org/ComfyUI/releases/latest)
