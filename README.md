@@ -89,6 +89,11 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![最新 KeePassXC 版本](https://img.shields.io/github/v/release/keepassxreboot/keepassxc?label=KeePassXC)](https://github.com/keepassxreboot/keepassxc/releases/latest)
 [![KeePassXC 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/keepassxreboot/keepassxc/releases/latest&query=$.published_at&label=更新日期)](https://github.com/keepassxreboot/keepassxc/releases/latest)
 
+[![最新 JPEGView 版本](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView)](https://github.com/sylikc/jpegview/releases/latest)
+[![JPEGView 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/sylikc/jpegview/releases/latest&query=$.published_at&label=更新日期)](https://github.com/sylikc/jpegview/releases/latest)
+
+
+
 ---
 ### AI
 
