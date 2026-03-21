@@ -1,3 +1,5 @@
+[![最新版本](https://img.shields.io/github/v/tag/LibreOffice/core?label=LibreOffice)](https://github.com/LibreOffice/core/tags)
+[![最新版本日期](https://img.shields.io/github/v/tag/LibreOffice/core?label=更新日期&sort=date)](https://github.com/LibreOffice/core/tags)
 
 ---
 
