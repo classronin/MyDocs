@@ -1,5 +1,3 @@
-[![最新版本](https://img.shields.io/github/v/tag/LibreOffice/core?label=LibreOffice)](https://github.com/LibreOffice/core/tags)
-[![最新版本日期](https://img.shields.io/github/v/tag/LibreOffice/core?label=更新日期&sort=date)](https://github.com/LibreOffice/core/tags)
 
 ---
 
@@ -94,6 +92,8 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![最新 JPEGView 版本](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView)](https://github.com/sylikc/jpegview/releases/latest)
 [![JPEGView 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/sylikc/jpegview/releases/latest&query=$.published_at&label=更新日期)](https://github.com/sylikc/jpegview/releases/latest)
 
+[![最新版本](https://img.shields.io/github/v/tag/LibreOffice/core?label=LibreOffice)](https://github.com/LibreOffice/core/tags)
+[![最新版本日期](https://img.shields.io/github/v/tag/LibreOffice/core?label=更新日期&sort=date)](https://github.com/LibreOffice/core/tags)
 
 
 ---
