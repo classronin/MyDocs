@@ -1,4 +1,5 @@
 
+
 ---
 
 [![最新 aria2 版本](https://img.shields.io/github/v/release/aria2/aria2?label=Aria2)](https://github.com/aria2/aria2/releases/latest)
@@ -95,6 +96,9 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![最新版本](https://img.shields.io/github/v/tag/LibreOffice/core?label=LibreOffice)](https://github.com/LibreOffice/core/tags)
 [![最新版本日期](https://img.shields.io/github/v/tag/LibreOffice/core?label=更新日期&sort=date)](https://github.com/LibreOffice/core/tags)
 
+[![LosslessCut 版本](https://img.shields.io/github/v/release/mifi/lossless-cut?label=LosslessCut)](https://github.com/mifi/lossless-cut/releases/latest)
+[![更新日期](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/mifi/lossless-cut/releases/latest&query=$.published_at&label=更新日期)](https://github.com/mifi/lossless-cut/releases/latest)
+[![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-win-x64.7z)
 
 ---
 ### AI
