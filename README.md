@@ -101,13 +101,15 @@ losslesscut（无损剪辑 GUI）
 shotcut（视频编辑 GUI）
 [![最新 Shotcut 版本](https://img.shields.io/github/v/release/mltframework/shotcut?label=Shotcut)](https://github.com/mltframework/shotcut/releases/latest)
 [![Shotcut 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/mltframework/shotcut/releases/latest&query=$.published_at&label=更新日期)](https://github.com/mltframework/shotcut/releases/latest)
+下载选shotcut-win64-x.x.x.zip
 
 Blender（3D 建模，含视频编辑）
 [![最新 Blender 版本](https://img.shields.io/github/v/tag/blender/blender?label=Blender)](https://github.com/blender/blender/tags)
-
+[下载](https://www.blender.org/download/)
 
 vlc（播放器，也可转码）
-
+[![最新 VLC 版本](https://img.shields.io/github/v/tag/videolan/vlc?label=VLC&sort=date)](https://github.com/videolan/vlc/tags)
+[下载](https://www.videolan.org/vlc/)
 
 
 ---
@@ -120,9 +122,17 @@ vlc（播放器，也可转码）
 ---
 ### 应用程序
 
+ShareX 屏幕捕获、文件共享和生产力工具
+[![最新 ShareX 版本](https://img.shields.io/github/v/release/ShareX/ShareX?label=ShareX)](https://github.com/ShareX/ShareX/releases/latest)
+[![ShareX 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/ShareX/ShareX/releases/latest&query=$.published_at&label=更新日期)](https://github.com/ShareX/ShareX/releases/latest)
+下载选ShareX-x.x.x-portable.zip
+
+KeePassXC 密码管理器
 [![最新 KeePassXC 版本](https://img.shields.io/github/v/release/keepassxreboot/keepassxc?label=KeePassXC)](https://github.com/keepassxreboot/keepassxc/releases/latest)
 [![KeePassXC 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/keepassxreboot/keepassxc/releases/latest&query=$.published_at&label=更新日期)](https://github.com/keepassxreboot/keepassxc/releases/latest)
+下载选KeePassXC-x.x.x-Win64.zip
 
+JPEGView 图像浏览器
 [![最新 JPEGView 版本](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView)](https://github.com/sylikc/jpegview/releases/latest)
 [![JPEGView 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/sylikc/jpegview/releases/latest&query=$.published_at&label=更新日期)](https://github.com/sylikc/jpegview/releases/latest)
 
