@@ -79,6 +79,36 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![最新 ImageMagick 版本](https://img.shields.io/github/v/release/ImageMagick/ImageMagick?label=ImageMagick)](https://github.com/ImageMagick/ImageMagick/releases/latest)
 [![ImageMagick 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/ImageMagick/ImageMagick/releases/latest&query=$.published_at&label=更新日期)](https://github.com/ImageMagick/ImageMagick/releases/latest)
 
+---
+
+### 媒体处理工具
+
+ffmpeg（命令行音视频处理）
+[![最新 FFmpeg 版本](https://img.shields.io/github/v/release/GyanD/codexffmpeg?label=FFmpeg)](https://github.com/GyanD/codexffmpeg/releases/latest)
+[![FFmpeg 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/GyanD/codexffmpeg/releases/latest&query=$.published_at&label=更新日期)](https://github.com/GyanD/codexffmpeg/releases/latest)
+下载选ffmpeg-x.x-full_build.7z
+
+HandBrake（视频转码 GUI）
+[![最新 HandBrake 版本](https://img.shields.io/github/v/release/HandBrake/HandBrake?label=HandBrake)](https://github.com/HandBrake/HandBrake/releases/latest)
+[![HandBrake 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/HandBrake/HandBrake/releases/latest&query=$.published_at&label=更新日期)](https://github.com/HandBrake/HandBrake/releases/latest)
+下载选HandBrakeCLI-x.x.x-win-x86_64.zip
+
+losslesscut（无损剪辑 GUI）
+[![LosslessCut 版本](https://img.shields.io/github/v/release/mifi/lossless-cut?label=LosslessCut)](https://github.com/mifi/lossless-cut/releases/latest)
+[![更新日期](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/mifi/lossless-cut/releases/latest&query=$.published_at&label=更新日期)](https://github.com/mifi/lossless-cut/releases/latest)
+[![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-win-x64.7z)
+
+shotcut（视频编辑 GUI）
+[![最新 Shotcut 版本](https://img.shields.io/github/v/release/mltframework/shotcut?label=Shotcut)](https://github.com/mltframework/shotcut/releases/latest)
+[![Shotcut 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/mltframework/shotcut/releases/latest&query=$.published_at&label=更新日期)](https://github.com/mltframework/shotcut/releases/latest)
+
+Blender（3D 建模，含视频编辑）
+[![最新 Blender 版本](https://img.shields.io/github/v/tag/blender/blender?label=Blender)](https://github.com/blender/blender/tags)
+
+
+vlc（播放器，也可转码）
+
+
 
 ---
 
@@ -99,9 +129,7 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![最新版本](https://img.shields.io/github/v/tag/LibreOffice/core?label=LibreOffice)](https://github.com/LibreOffice/core/tags)
 [![最新版本日期](https://img.shields.io/github/v/tag/LibreOffice/core?label=更新日期&sort=date)](https://github.com/LibreOffice/core/tags)
 
-[![LosslessCut 版本](https://img.shields.io/github/v/release/mifi/lossless-cut?label=LosslessCut)](https://github.com/mifi/lossless-cut/releases/latest)
-[![更新日期](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/mifi/lossless-cut/releases/latest&query=$.published_at&label=更新日期)](https://github.com/mifi/lossless-cut/releases/latest)
-[![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-win-x64.7z)
+
 
 [![最新 SumatraPDF 版本](https://img.shields.io/github/v/release/sumatrapdfreader/sumatrapdf?label=SumatraPDF)](https://github.com/sumatrapdfreader/sumatrapdf/releases/latest)
 [![SumatraPDF 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/sumatrapdfreader/sumatrapdf/releases/latest&query=$.published_at&label=更新日期)](https://github.com/sumatrapdfreader/sumatrapdf/releases/latest)
