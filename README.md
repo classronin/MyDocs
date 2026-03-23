@@ -76,6 +76,9 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![fd 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/sharkdp/fd/releases/latest&query=$.published_at&label=更新日期)](https://github.com/sharkdp/fd/releases/latest)
 
 
+[![最新 ImageMagick 版本](https://img.shields.io/github/v/release/ImageMagick/ImageMagick?label=ImageMagick)](https://github.com/ImageMagick/ImageMagick/releases/latest)
+[![ImageMagick 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/ImageMagick/ImageMagick/releases/latest&query=$.published_at&label=更新日期)](https://github.com/ImageMagick/ImageMagick/releases/latest)
+
 
 ---
 
