@@ -103,6 +103,10 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![更新日期](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/mifi/lossless-cut/releases/latest&query=$.published_at&label=更新日期)](https://github.com/mifi/lossless-cut/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-win-x64.7z)
 
+[![最新 SumatraPDF 版本](https://img.shields.io/github/v/release/sumatrapdfreader/sumatrapdf?label=SumatraPDF)](https://github.com/sumatrapdfreader/sumatrapdf/releases/latest)
+[![SumatraPDF 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/sumatrapdfreader/sumatrapdf/releases/latest&query=$.published_at&label=更新日期)](https://github.com/sumatrapdfreader/sumatrapdf/releases/latest)
+[下载](https://www.sumatrapdfreader.org/download-free-pdf-viewer)
+
 ---
 ### AI
 
