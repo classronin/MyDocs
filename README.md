@@ -125,6 +125,8 @@ ungoogled-chromium 去谷歌化的浏览器
 [![最新版本](https://img.shields.io/github/v/release/ungoogled-software/ungoogled-chromium-windows?label=Chromium)](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/latest)
 [![最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/ungoogled-software/ungoogled-chromium-windows/releases/latest&query=$.published_at&label=更新日期)](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/latest)
 
+[TOR](https://www.torproject.org/)
+
 ---
 ### 应用程序
 
