@@ -103,7 +103,7 @@ s https://...zip   # 下载至CMD当前目录的路径
 `scoop install Blender`
 
 [![MPV 视频播放器](https://img.shields.io/github/v/release/mpv-player/mpv?label=MPV-视频播放器)](https://github.com/mpv-player/mpv/releases/latest)
-
+`scoop install mpv`
 
 [![VLC 视频播放器](https://img.shields.io/github/v/tag/videolan/vlc?label=VLC-视频播放器)](https://github.com/videolan/vlc/tags)
 `scoop install vlc`
