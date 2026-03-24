@@ -151,6 +151,7 @@ KeePassXC 密码管理器
 JPEGView 图像浏览器
 [![最新 JPEGView 版本](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView)](https://github.com/sylikc/jpegview/releases/latest)
 [![JPEGView 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/sylikc/jpegview/releases/latest&query=$.published_at&label=更新日期)](https://github.com/sylikc/jpegview/releases/latest)
+Win64下载选JPEGView64_x.x.x.7z
 
 LibreOffice 开源办公套件
 [![最新版本](https://img.shields.io/github/v/tag/LibreOffice/core?label=LibreOffice)](https://github.com/LibreOffice/core/tags)
