@@ -30,6 +30,10 @@ bs https://.../10*.jpg   # 请输入网址模板 (使用 * 代替数字部分，
 s https://...zip   # 下载至CMD当前目录的路径
 ```
 
+---
+Win系统便捷的方便
+[Scoop Extras](https://github.com/ScoopInstaller/Extras)
+
 
 ---
 ### CLI
