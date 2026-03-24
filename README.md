@@ -141,10 +141,10 @@ s https://...zip   # 下载至CMD当前目录的路径
 
 [![JPEGView 图像浏览器](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView-图像浏览器)](https://github.com/sylikc/jpegview/releases/latest)
 `scoop install jpegview-fork`
-
+目录下JPEGView.ini [配置参考](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JPEGView/JPEGView.ini%E8%AE%BE%E7%BD%AE.txt)
 
 [![LibreOffice版本](https://img.shields.io/github/v/tag/LibreOffice/core?label=LibreOffice-开源办公套件)](https://github.com/LibreOffice/core/tags)
-[下载](https://zh-cn.libreoffice.org/download/libreoffice/)
+`scoop install LibreOffice`
 
 [![最新 SumatraPDF 版本](https://img.shields.io/github/v/release/sumatrapdfreader/sumatrapdf?label=SumatraPDF-PDF阅读器)](https://github.com/sumatrapdfreader/sumatrapdf/releases/latest)
 `scoop install SumatraPDF`
@@ -156,42 +156,26 @@ s https://...zip   # 下载至CMD当前目录的路径
 ### AI
 
 [![最新 Ollama 版本](https://img.shields.io/github/v/release/ollama/ollama?label=Ollama)](https://github.com/ollama/ollama/releases/latest)
-[![下载 Ollama for Windows](https://img.shields.io/badge/Win64-blue)](https://github.com/ollama/ollama/releases/latest/download/OllamaSetup.exe)
-
+`scoop install ollama-full`
 
 [![最新 ComfyUI 版本](https://img.shields.io/github/v/release/Comfy-Org/ComfyUI?label=ComfyUI)](https://github.com/Comfy-Org/ComfyUI/releases/latest)
-
+`git clone https://github.com/Comfy-Org/ComfyUI`
 
 [![最新 open-webui 版本](https://img.shields.io/github/v/release/open-webui/open-webui?label=open-webui)](https://github.com/open-webui/open-webui/releases/latest)
-
-
-[![最新 text-generation-webui 版本](https://img.shields.io/github/v/release/oobabooga/text-generation-webui?label=text-generation-webui)](https://github.com/oobabooga/text-generation-webui/releases/latest)
-
+`uv pip install open-webui`
 
 ---
 ### Python库
 
-Gradio 交互界面库
-[![最新 gradio 版本](https://img.shields.io/github/v/release/gradio-app/gradio?label=gradio)](https://github.com/gradio-app/gradio/releases/latest)
-
-
-Chroma 向量数据库
-[![最新 chroma 版本](https://img.shields.io/github/v/release/chroma-core/chroma?label=chroma)](https://github.com/chroma-core/chroma/releases/latest)
-
-
-Zensical 现代静态网站生成器
-[![最新 zensical 版本](https://img.shields.io/github/v/release/zensical/zensical?label=Zensical)](https://github.com/zensical/zensical/releases/latest)
-
-
-Hugging Face Hub  交互，支持模型、数据集、空间的上传、下载与管理。
-`
-uv pip install huggingface_hub huggingface_hub[hf_xet] hf_xet
-`
-[![最新 huggingface_hub 版本](https://img.shields.io/github/v/release/huggingface/huggingface_hub?label=huggingface_hub)](https://github.com/huggingface/huggingface_hub/releases/latest)
-
-
-JupyterLab 基于 Web 的交互式开发环境，支持多文档、可扩展的笔记本、代码控制台与文件管理，是 Jupyter Notebook 的下一代界面。
 [![最新 jupyterlab 版本](https://img.shields.io/github/v/release/jupyterlab/jupyterlab?label=jupyterlab)](https://github.com/jupyterlab/jupyterlab/releases/latest)
+`uv pip install jupyterlab`
 
+[![Gradio 交互界面库](https://img.shields.io/github/v/release/gradio-app/gradio?label=Gradio-交互界面库)](https://github.com/gradio-app/gradio/releases/latest)
 
+[![最新 chroma 版本](https://img.shields.io/github/v/release/chroma-core/chroma?label=Chroma-向量数据库)](https://github.com/chroma-core/chroma/releases/latest)
 
+[![最新 huggingface_hub 版本](https://img.shields.io/github/v/release/huggingface/huggingface_hub?label=huggingface_hub)](https://github.com/huggingface/huggingface_hub/releases/latest)
+`uv pip install huggingface_hub huggingface_hub[hf_xet] hf_xet`
+
+[![Zensical 现代静态网站生成器](https://img.shields.io/github/v/release/zensical/zensical?label=Zensical-现代静态网站生成器)](https://github.com/zensical/zensical/releases/latest)
+`uv pip install Zensical`
