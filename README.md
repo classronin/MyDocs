@@ -86,23 +86,25 @@ s https://...zip   # 下载至CMD当前目录的路径
 
 FFmpeg 命令行音视频处理
 [![最新 FFmpeg 版本](https://img.shields.io/github/v/release/GyanD/codexffmpeg?label=FFmpeg)](https://github.com/GyanD/codexffmpeg/releases/latest)
-下载选ffmpeg-x.x-full_build.7z
+`scoop install ffmpeg`
 
 HandBrake 视频转码
 [![最新 HandBrake 版本](https://img.shields.io/github/v/release/HandBrake/HandBrake?label=HandBrake)](https://github.com/HandBrake/HandBrake/releases/latest)
-下载选HandBrakeCLI-x.x.x-win-x86_64.zip
+`scoop install HandBrake`
 
 losslesscut 无损剪辑
 [![LosslessCut 版本](https://img.shields.io/github/v/release/mifi/lossless-cut?label=LosslessCut)](https://github.com/mifi/lossless-cut/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-win-x64.7z)
+`scoop install losslesscut`
 
 shotcut 视频编辑
 [![最新 Shotcut 版本](https://img.shields.io/github/v/release/mltframework/shotcut?label=Shotcut)](https://github.com/mltframework/shotcut/releases/latest)
-下载选shotcut-win64-x.x.x.zip
+`scoop install shotcut`
 
 Blender 3D建模含视频编辑
 [![最新 Blender 版本](https://img.shields.io/github/v/tag/blender/blender?label=Blender)](https://github.com/blender/blender/tags)
 [下载](https://www.blender.org/download/)
+`scoop install Blender`
 
 MPV 视频播放器
 [![最新 mpv 版本](https://img.shields.io/github/v/release/mpv-player/mpv?label=mpv)](https://github.com/mpv-player/mpv/releases/latest)
