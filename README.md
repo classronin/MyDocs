@@ -108,9 +108,8 @@ Blender 3D建模含视频编辑
 [下载](https://www.blender.org/download/)
 
 MPV 视频播放器
-[![最新 mpv-winbuild 版本](https://img.shields.io/github/v/release/zhongfly/mpv-winbuild?label=MPV-winbuild)](https://github.com/zhongfly/mpv-winbuild/releases/latest)
-[下载选mpv-x86_64-x-git-x.7z(仅限Win64)](https://github.com/zhongfly/mpv-winbuild/releases)
-[下载](https://nightly.link/mpv-player/mpv/workflows/build/master)
+[![最新 mpv 版本](https://img.shields.io/github/v/release/mpv-player/mpv?label=mpv)](https://github.com/mpv-player/mpv/releases/latest)
+[![mpv 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/mpv-player/mpv/releases/latest&query=$.published_at&label=更新日期)](https://github.com/mpv-player/mpv/releases/latest)
 
 VLC 视频播放器
 [![最新 VLC 版本](https://img.shields.io/github/v/tag/videolan/vlc?label=VLC&sort=date)](https://github.com/videolan/vlc/tags)
