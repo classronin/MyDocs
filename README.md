@@ -1,7 +1,7 @@
 
 ---
 
-[![最新 Scoop 版本](https://img.shields.io/github/v/release/ScoopInstaller/Scoop?label=Scoop)](https://github.com/ScoopInstaller/Scoop/releases/latest)
+[![Scoop 版本](https://img.shields.io/github/v/release/ScoopInstaller/Scoop?label=Scoop)](https://github.com/ScoopInstaller/Scoop/releases/latest)
 
 ```
 # Scoop 环境配置
@@ -68,50 +68,45 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![最新 pnpm 版本](https://img.shields.io/github/v/release/pnpm/pnpm?label=pnpm)](https://github.com/pnpm/pnpm/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/pnpm/pnpm/releases/latest/download/pnpm-win-x64.exe)
 
-[![最新 yt-dlp 版本](https://img.shields.io/github/v/release/yt-dlp/yt-dlp?label=yt-dlp)](https://github.com/yt-dlp/yt-dlp/releases/latest)
+[![yt-dlp 版本](https://img.shields.io/github/v/release/yt-dlp/yt-dlp?label=yt-dlp)](https://github.com/yt-dlp/yt-dlp/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_win.zip)
+`scoop install yt-dlp`
 
-[![最新 CMake 版本](https://img.shields.io/github/v/release/Kitware/CMake?label=CMake)](https://github.com/Kitware/CMake/releases/latest)
-构建系统生成器
+[![CMake 构建系统生成器](https://img.shields.io/github/v/release/Kitware/CMake?label=CMake-构建系统生成器)](https://github.com/Kitware/CMake/releases/latest)
+`scoop install cmake`
 
-[![最新 fd 版本](https://img.shields.io/github/v/release/sharkdp/fd?label=fd)](https://github.com/sharkdp/fd/releases/latest)
- `scoop install fd`  命令行搜索工具 [中文文档](https://github.com/cha0ran/fd-zh?tab=readme-ov-file#command-line-options)
+[![fd 命令行搜索工具](https://img.shields.io/github/v/release/sharkdp/fd?label=fd-命令行搜索工具)](https://github.com/sharkdp/fd/releases/latest)
+ `scoop install fd`   [中文文档](https://github.com/cha0ran/fd-zh?tab=readme-ov-file#command-line-options)
 
-[![最新 ImageMagick 版本](https://img.shields.io/github/v/release/ImageMagick/ImageMagick?label=ImageMagick)](https://github.com/ImageMagick/ImageMagick/releases/latest)
-`scoop install imagemagick` 命令行图像处理工具
+[![ImageMagick 命令行图像处理工具](https://img.shields.io/github/v/release/ImageMagick/ImageMagick?label=ImageMagick-命令行图像处理工具)](https://github.com/ImageMagick/ImageMagick/releases/latest)
+`scoop install imagemagick` 
 
 ---
 
 ### 媒体处理工具
 
-FFmpeg 命令行音视频处理
-[![最新 FFmpeg 版本](https://img.shields.io/github/v/release/GyanD/codexffmpeg?label=FFmpeg)](https://github.com/GyanD/codexffmpeg/releases/latest)
+[![最新 FFmpeg 命令行音视频处理](https://img.shields.io/github/v/release/GyanD/codexffmpeg?label=FFmpeg-命令行音视频处理)](https://github.com/GyanD/codexffmpeg/releases/latest)
 `scoop install ffmpeg`
 
-HandBrake 视频转码
-[![最新 HandBrake 版本](https://img.shields.io/github/v/release/HandBrake/HandBrake?label=HandBrake)](https://github.com/HandBrake/HandBrake/releases/latest)
+[![HandBrake 视频转码](https://img.shields.io/github/v/release/HandBrake/HandBrake?label=HandBrake-视频转码)](https://github.com/HandBrake/HandBrake/releases/latest)
 `scoop install HandBrake`
 
-losslesscut 无损剪辑
-[![LosslessCut 版本](https://img.shields.io/github/v/release/mifi/lossless-cut?label=LosslessCut)](https://github.com/mifi/lossless-cut/releases/latest)
+[![LosslessCut 无损剪辑](https://img.shields.io/github/v/release/mifi/lossless-cut?label=LosslessCut-无损剪辑)](https://github.com/mifi/lossless-cut/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-win-x64.7z)
 `scoop install losslesscut`
 
-shotcut 视频编辑
-[![最新 Shotcut 版本](https://img.shields.io/github/v/release/mltframework/shotcut?label=Shotcut)](https://github.com/mltframework/shotcut/releases/latest)
+[![最新 Shotcut 视频编辑](https://img.shields.io/github/v/release/mltframework/shotcut?label=Shotcut-视频编辑)](https://github.com/mltframework/shotcut/releases/latest)
 `scoop install shotcut`
 
-Blender 3D建模含视频编辑
-[![最新 Blender 版本](https://img.shields.io/github/v/tag/blender/blender?label=Blender)](https://github.com/blender/blender/tags)
+[![最新 Blender 3D建模含视频编辑](https://img.shields.io/github/v/tag/blender/blender?label=Blender-3D建模含视频编辑)](https://github.com/blender/blender/tags)
 [下载](https://www.blender.org/download/)
 `scoop install Blender`
 
-MPV 视频播放器
-[![最新 mpv 版本](https://img.shields.io/github/v/release/mpv-player/mpv?label=mpv)](https://github.com/mpv-player/mpv/releases/latest)
+[![MPV 视频播放器](https://img.shields.io/github/v/release/mpv-player/mpv?label=MPV-视频播放器)](https://github.com/mpv-player/mpv/releases/latest)
 
-VLC 视频播放器
-[![最新 VLC 版本](https://img.shields.io/github/v/tag/videolan/vlc?label=VLC&sort=date)](https://github.com/videolan/vlc/tags)
-[下载](https://www.videolan.org/vlc/)
+
+[![VLC 视频播放器](https://img.shields.io/github/v/tag/videolan/vlc?label=VLC-视频播放器)](https://github.com/videolan/vlc/tags)
+`scoop install vlc`
 
 
 ---
