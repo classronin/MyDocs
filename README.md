@@ -31,8 +31,23 @@ s https://...zip   # 下载至CMD当前目录的路径
 ```
 
 ---
-Win系统便捷的方便
-[Scoop Extras](https://github.com/ScoopInstaller/Extras)
+
+[![最新 Scoop 版本](https://img.shields.io/github/v/release/ScoopInstaller/Scoop?label=Scoop)](https://github.com/ScoopInstaller/Scoop/releases/latest)
+[![Scoop 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/ScoopInstaller/Scoop/releases/latest&query=$.published_at&label=更新日期)](https://github.com/ScoopInstaller/Scoop/releases/latest)
+```
+# Scoop 环境配置
+SCOOP=E:\Scoop
+设置后，运行以下二行命令会安装到环境变量指定的路径
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+
+# 指定 Scoop 核心仓库的 Git 地址（可以是镜像源或自定义分支）
+SCOOP_REPO=https://github.com/ScoopInstaller/Install 
+SCOOP_REPO=https://ghfast.top/https://github.com/ScoopInstaller/Install
+SCOOP_REPO=https://gitee.com/glsnames/scoop-installer
+
+```
+[Extras](https://github.com/ScoopInstaller/Extras) - [Main](https://github.com/ScoopInstaller/Main)
 
 
 ---
