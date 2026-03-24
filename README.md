@@ -131,6 +131,11 @@ ungoogled-chromium 去谷歌化的浏览器
 ---
 ### 应用程序
 
+GIMP 图像编辑器
+[![最新 GIMP 版本](https://img.shields.io/github/v/tag/GNOME/gimp?label=GIMP)](https://github.com/GNOME/gimp/tags)
+[下载](https://www.gimp.org/downloads/)
+
+
 Notepad++ 文本编辑器
 [![最新 Notepad++ 版本](https://img.shields.io/github/v/release/notepad-plus-plus/notepad-plus-plus?label=Notepad%2B%2B)](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest)
 [![Notepad++ 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/notepad-plus-plus/notepad-plus-plus/releases/latest&query=$.published_at&label=更新日期)](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest)
