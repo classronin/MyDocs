@@ -99,11 +99,10 @@ s https://...zip   # 下载至CMD当前目录的路径
 `scoop install shotcut`
 
 [![最新 Blender 3D建模含视频编辑](https://img.shields.io/github/v/tag/blender/blender?label=Blender-3D建模含视频编辑)](https://github.com/blender/blender/tags)
-[下载](https://www.blender.org/download/)
 `scoop install Blender`
 
 [![MPV 视频播放器](https://img.shields.io/github/v/release/mpv-player/mpv?label=MPV-视频播放器)](https://github.com/mpv-player/mpv/releases/latest)
-`scoop install mpv`
+`scoop install mpv` 把[mpv.conf](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/mpv.conf)配置文件放在mpv目录下
 
 [![VLC 视频播放器](https://img.shields.io/github/v/tag/videolan/vlc?label=VLC-视频播放器)](https://github.com/videolan/vlc/tags)
 `scoop install vlc`
@@ -113,45 +112,35 @@ s https://...zip   # 下载至CMD当前目录的路径
 
 ### 浏览器
 
-ungoogled-chromium 去谷歌化的浏览器
-[![最新版本](https://img.shields.io/github/v/release/ungoogled-software/ungoogled-chromium-windows?label=Chromium)](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/latest)
+[![Ungoogled Chromium 去谷歌化的浏览器](https://img.shields.io/github/v/release/ungoogled-software/ungoogled-chromium-windows?label=Ungoogled-Chromium-去谷歌化的浏览器)](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/latest)
+`scoop install ungoogled-chromium`
 
-
-Tor 浏览器
-![Tor Browser 版本](https://img.shields.io/scoop/v/tor-browser?bucket=extras&label=Tor%20Browser)
+![Tor Browser 浏览器](https://img.shields.io/scoop/v/tor-browser?bucket=extras&label=Tor%20Browser-浏览器)
 `scoop install Tor-Browser`
 
 
 ---
 ### 应用程序
 
-GIMP 图像编辑器
-[![最新 GIMP 版本](https://img.shields.io/github/v/tag/GNOME/gimp?label=GIMP)](https://github.com/GNOME/gimp/tags)
-[下载](https://www.gimp.org/downloads/)
 
-Notepad++ 文本编辑器
-[![最新 Notepad++ 版本](https://img.shields.io/github/v/release/notepad-plus-plus/notepad-plus-plus?label=Notepad%2B%2B)](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest)
-下载选npp.x.x.x.portable.x64.zip
+[![GIMP 图像编辑器](https://img.shields.io/github/v/tag/GNOME/gimp?label=GIMP-图像编辑器)](https://github.com/GNOME/gimp/tags)
+`scoop install GIMP`
 
-Obsidian 知识笔记
-[![最新 Obsidian 版本](https://img.shields.io/github/v/release/obsidianmd/obsidian-releases?label=Obsidian)](https://github.com/obsidianmd/obsidian-releases/releases/latest)
-下载选Obsidian-x.x.x.exe
+[![Notepad++ 文本编辑器](https://img.shields.io/github/v/release/notepad-plus-plus/notepad-plus-plus?label=Notepad%2B%2B-文本编辑器)](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest)
+`scoop install NotepadPlusPlus`
 
-Logseq 日记笔记
-[![最新 Logseq 版本](https://img.shields.io/github/v/release/logseq/logseq?label=Logseq)](https://github.com/logseq/logseq/releases/latest)
-下载选Logseq-win-x64-x.x.x.zip
+[![Obsidian 笔记](https://img.shields.io/github/v/release/obsidianmd/obsidian-releases?label=Obsidian-笔记)](https://github.com/obsidianmd/obsidian-releases/releases/latest)
+`scoop install Obsidian`
 
-ShareX 截图与共享工具
-[![最新 ShareX 版本](https://img.shields.io/github/v/release/ShareX/ShareX?label=ShareX)](https://github.com/ShareX/ShareX/releases/latest)
-下载选ShareX-x.x.x-portable.zip
+[![ShareX 截图与共享工具](https://img.shields.io/github/v/release/ShareX/ShareX?label=ShareX-截图与共享工具)](https://github.com/ShareX/ShareX/releases/latest)
+`scoop install ShareX`
 
-KeePassXC 密码管理器
-[![最新 KeePassXC 版本](https://img.shields.io/github/v/release/keepassxreboot/keepassxc?label=KeePassXC)](https://github.com/keepassxreboot/keepassxc/releases/latest)
-下载选KeePassXC-x.x.x-Win64.zip
+[![最新 KeePassXC 密码管理器](https://img.shields.io/github/v/release/keepassxreboot/keepassxc?label=KeePassXC-密码管理器)](https://github.com/keepassxreboot/keepassxc/releases/latest)
+`scoop install KeePassXC`
 
-JPEGView 图像浏览器
-[![最新 JPEGView 版本](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView)](https://github.com/sylikc/jpegview/releases/latest)
-Win64下载选JPEGView64_x.x.x.7z
+
+[![JPEGView 图像浏览器](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView-图像浏览器)](https://github.com/sylikc/jpegview/releases/latest)
+`scoop install jpegview-fork`
 
 
 [![LibreOffice版本](https://img.shields.io/github/v/tag/LibreOffice/core?label=LibreOffice-开源办公套件)](https://github.com/LibreOffice/core/tags)
