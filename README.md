@@ -158,13 +158,15 @@ JPEGView 图像浏览器
 [![最新 JPEGView 版本](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView)](https://github.com/sylikc/jpegview/releases/latest)
 Win64下载选JPEGView64_x.x.x.7z
 
-LibreOffice 开源办公套件
-[![最新版本](https://img.shields.io/github/v/tag/LibreOffice/core?label=LibreOffice)](https://github.com/LibreOffice/core/tags)
+
+[![LibreOffice版本](https://img.shields.io/github/v/tag/LibreOffice/core?label=LibreOffice-开源办公套件)](https://github.com/LibreOffice/core/tags)
 [下载](https://zh-cn.libreoffice.org/download/libreoffice/)
 
-SumatraPDF PDF阅读器
-[![最新 SumatraPDF 版本](https://img.shields.io/github/v/release/sumatrapdfreader/sumatrapdf?label=SumatraPDF)](https://github.com/sumatrapdfreader/sumatrapdf/releases/latest)
-[下载](https://www.sumatrapdfreader.org/download-free-pdf-viewer)
+[![最新 SumatraPDF 版本](https://img.shields.io/github/v/release/sumatrapdfreader/sumatrapdf?label=SumatraPDF-PDF阅读器)](https://github.com/sumatrapdfreader/sumatrapdf/releases/latest)
+`scoop install SumatraPDF`
+
+![RapidEE](https://img.shields.io/scoop/v/rapidee?bucket=extras&label=RapidEE-环境变量工具)
+`scoop install RapidEE`
 
 ---
 ### AI
