@@ -128,9 +128,15 @@ ungoogled-chromium 去谷歌化的浏览器
 ---
 ### 应用程序
 
-Obsidian 私人笔记
+Obsidian 知识笔记
 [![最新 Obsidian 版本](https://img.shields.io/github/v/release/obsidianmd/obsidian-releases?label=Obsidian)](https://github.com/obsidianmd/obsidian-releases/releases/latest)
 [![Obsidian 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/obsidianmd/obsidian-releases/releases/latest&query=$.published_at&label=更新日期)](https://github.com/obsidianmd/obsidian-releases/releases/latest)
+下载选Obsidian-x.x.x.exe
+
+Logseq 日记笔记
+[![最新 Logseq 版本](https://img.shields.io/github/v/release/logseq/logseq?label=Logseq)](https://github.com/logseq/logseq/releases/latest)
+[![Logseq 最新发布](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/logseq/logseq/releases/latest&query=$.published_at&label=更新日期)](https://github.com/logseq/logseq/releases/latest)
+下载选Logseq-win-x64-x.x.x.zip
 
 ShareX 截图与共享工具
 [![最新 ShareX 版本](https://img.shields.io/github/v/release/ShareX/ShareX?label=ShareX)](https://github.com/ShareX/ShareX/releases/latest)
