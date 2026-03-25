@@ -153,6 +153,7 @@ s https://...zip   # 下载至CMD当前目录的路径
 `scoop install KeePassXC`
 
 
+
 [![JPEGView 图像浏览器](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView-图像浏览器)](https://github.com/sylikc/jpegview/releases/latest)
 `scoop install jpegview-fork`
 目录下JPEGView.ini [配置参考](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JPEGView/JPEGView.ini%E8%AE%BE%E7%BD%AE.txt)
@@ -165,6 +166,10 @@ s https://...zip   # 下载至CMD当前目录的路径
 
 ![RapidEE](https://img.shields.io/scoop/v/rapidee?bucket=extras&label=RapidEE-环境变量工具)
 `scoop install RapidEE`
+
+[![ Flameshot 截图编辑工具 ](https://img.shields.io/github/v/release/flameshot-org/flameshot?label=Flameshot-截图编辑工具)](https://github.com/flameshot-org/flameshot/releases/latest)
+`scoop install Flameshot`
+
 
 ---
 ### AI
