@@ -129,6 +129,8 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![ uBlock Origin 内容拦截器 ](https://img.shields.io/github/v/release/gorhill/uBlock?label=uBlock%20Origin%20内容拦截器)](https://github.com/gorhill/uBlock/releases/latest)
 
 
+[Video DownloadHelper 视频下载助手](https://github.com/aclap-dev/video-downloadhelper)
+
 
 
 ---
