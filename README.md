@@ -145,6 +145,9 @@ s https://...zip   # 下载至CMD当前目录的路径
 ---
 ### 应用程序
 
+![Thunderbird 邮件](https://img.shields.io/scoop/v/thunderbird?bucket=extras&label=Thunderbird%20%E9%82%AE%E4%BB%B6)
+`scoop install Thunderbird`
+
 [![ DeOldify.NET 黑白照片上彩](https://img.shields.io/github/v/release/ColorfulSoft/DeOldify.NET?label=DeOldify.NET%20黑白照片上彩)](https://github.com/ColorfulSoft/DeOldify.NET/releases/latest)
 [![下载 Windows 版](https://img.shields.io/badge/下载-Win)](https://github.com/ColorfulSoft/DeOldify.NET/releases/latest/download/DeOldify.NET.win.exe)
 
