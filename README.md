@@ -46,6 +46,12 @@ bs https://.../10*.jpg   # 请输入网址模板 (使用 * 代替数字部分，
 s https://...zip   # 下载至CMD当前目录的路径
 ```
 
+---
+
+### Android
+
+[![ Trail Sense 迹感 ](https://img.shields.io/github/v/release/kylecorry31/Trail-Sense?label=Trail%20Sense%20迹感)](https://github.com/kylecorry31/Trail-Sense/releases/latest)
+
 
 ---
 ### CLI
