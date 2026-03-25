@@ -48,9 +48,7 @@ s https://...zip   # 下载至CMD当前目录的路径
 
 ---
 
-### Android
 
-[![ Trail Sense 迹感 ](https://img.shields.io/github/v/release/kylecorry31/Trail-Sense?label=Trail%20Sense%20迹感)](https://github.com/kylecorry31/Trail-Sense/releases/latest)
 
 
 ---
@@ -151,8 +149,6 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![ DeOldify.NET 黑白照片上彩](https://img.shields.io/github/v/release/ColorfulSoft/DeOldify.NET?label=DeOldify.NET%20黑白照片上彩)](https://github.com/ColorfulSoft/DeOldify.NET/releases/latest)
 [![下载 Windows 版](https://img.shields.io/badge/下载-Win)](https://github.com/ColorfulSoft/DeOldify.NET/releases/latest/download/DeOldify.NET.win.exe)
 
-文件同步工具[官网](http://dimio.altervista.org/eng/) [Win.zip](http://dimiodati.altervista.org/zip/dsynchronize.zip) 
-[中文(简体)补丁](http://dimio.altervista.org/zip/DSynchronize%20Chinese%20(CHS)%20Pack.zip)
 
 [![GIMP 图像编辑器](https://img.shields.io/github/v/tag/GNOME/gimp?label=GIMP-图像编辑器)](https://github.com/GNOME/gimp/tags)
 `scoop install GIMP`
@@ -163,17 +159,16 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![Obsidian 笔记](https://img.shields.io/github/v/release/obsidianmd/obsidian-releases?label=Obsidian-笔记)](https://github.com/obsidianmd/obsidian-releases/releases/latest)
 `scoop install Obsidian`
 
-[![ShareX 截图与共享工具](https://img.shields.io/github/v/release/ShareX/ShareX?label=ShareX-截图与共享工具)](https://github.com/ShareX/ShareX/releases/latest)
-`scoop install ShareX`
+
 
 [![最新 KeePassXC 密码管理器](https://img.shields.io/github/v/release/keepassxreboot/keepassxc?label=KeePassXC-密码管理器)](https://github.com/keepassxreboot/keepassxc/releases/latest)
 `scoop install KeePassXC`
 
-
-
 [![JPEGView 图像浏览器](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView-图像浏览器)](https://github.com/sylikc/jpegview/releases/latest)
 `scoop install jpegview-fork`
 目录下JPEGView.ini [配置参考](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JPEGView/JPEGView.ini%E8%AE%BE%E7%BD%AE.txt)
+
+
 
 [![LibreOffice版本](https://img.shields.io/github/v/tag/LibreOffice/core?label=LibreOffice-开源办公套件)](https://github.com/LibreOffice/core/tags)
 `scoop install LibreOffice`
@@ -184,8 +179,17 @@ s https://...zip   # 下载至CMD当前目录的路径
 ![RapidEE](https://img.shields.io/scoop/v/rapidee?bucket=extras&label=RapidEE-环境变量工具)
 `scoop install RapidEE`
 
+
+
 [![ Flameshot 截图编辑工具 ](https://img.shields.io/github/v/release/flameshot-org/flameshot?label=Flameshot-截图编辑工具)](https://github.com/flameshot-org/flameshot/releases/latest)
 `scoop install Flameshot`
+
+[![ShareX 截图与共享工具](https://img.shields.io/github/v/release/ShareX/ShareX?label=ShareX-截图与共享工具)](https://github.com/ShareX/ShareX/releases/latest)
+`scoop install ShareX`
+
+
+文件同步工具[官网](http://dimio.altervista.org/eng/) [Win.zip](http://dimiodati.altervista.org/zip/dsynchronize.zip) 
+[中文(简体)补丁](http://dimio.altervista.org/zip/DSynchronize%20Chinese%20(CHS)%20Pack.zip)
 
 
 ---
@@ -215,3 +219,16 @@ s https://...zip   # 下载至CMD当前目录的路径
 
 [![Zensical 现代静态网站生成器](https://img.shields.io/github/v/release/zensical/zensical?label=Zensical-现代静态网站生成器)](https://github.com/zensical/zensical/releases/latest)
 `uv pip install Zensical`
+
+
+---
+
+
+### Android
+
+[![ Trail Sense 迹感 ](https://img.shields.io/github/v/release/kylecorry31/Trail-Sense?label=Trail%20Sense%20迹感)](https://github.com/kylecorry31/Trail-Sense/releases/latest)
+
+
+
+
+
