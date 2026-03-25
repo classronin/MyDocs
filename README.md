@@ -118,6 +118,18 @@ s https://...zip   # 下载至CMD当前目录的路径
 ![Tor Browser 浏览器](https://img.shields.io/scoop/v/tor-browser?bucket=extras&label=Tor%20Browser-浏览器)
 `scoop install Tor-Browser`
 
+### 浏览器插件
+
+[![ KISS Translator 简约翻译 ](https://img.shields.io/github/v/release/fishjar/kiss-translator?label=KISS%20Translator%20简约翻译)](https://github.com/fishjar/kiss-translator/releases/latest)
+
+
+[![ DarkReader-深色阅读器 ](https://img.shields.io/github/v/release/darkreader/darkreader?label=DarkReader%20深色阅读器)](https://github.com/darkreader/darkreader/releases/latest)
+
+
+[![ uBlock Origin 内容拦截器 ](https://img.shields.io/github/v/release/gorhill/uBlock?label=uBlock%20Origin%20内容拦截器)](https://github.com/gorhill/uBlock/releases/latest)
+
+
+
 
 ---
 ### 应用程序
