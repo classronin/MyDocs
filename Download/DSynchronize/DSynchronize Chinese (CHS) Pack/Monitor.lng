@@ -1,0 +1,260 @@
+# DSynchronize Remote Controller Translation - by CyberCowBoy, 2023-03-02
+# Header (Author, date, etc)
+1 DSynchronize Controller
+2 DSynchronize 控制器
+1 DSYNCHRONIZE CONTROLLER
+2 DSYNCHRONIZE 控制器
+1 Remote Controller
+2 远程控制器
+1 &File
+2 文件(&F)
+1 E&xit without save settings	Alt+F5
+2 退出而不保存设置(&X)	Alt+F5
+1 &Exit	Alt+F4
+2 退出(&E)	Alt+F4
+1 &Options
+2 选项(&O)
+# >>> Monitor and status keywords. Don't translate, used as is by the program <<<
+# >>>>> Translated only for documentation purposes <<<<<
+1 Waiting
+2 
+1 Running
+2 
+1 Dead
+2 
+1 Blocked
+2 
+1 IDLE
+2 
+1 REALTIME
+2 
+1 REALTIME-DEFERRED
+2 
+1 CLOSED
+2 
+1 SHUTDOWN
+2 
+1 FAIL
+2 
+# ---------------------------------------------------------------------------------------
+1 &Start Monitor
+2 开始监视(&S)
+1 Start Monitor
+2 开始监视
+1 Restart Monitor
+2 重新启动监视
+1 &Stop Monitor
+2 停止监视(&S)
+1 &Reset Monitor
+2 重置监视(&R)
+1 Close program if all instances close regularly
+2 如果所有实例都按时关闭则关闭程序
+1 Don't report alerts for manual closes and shutdown
+2 不报告手动关闭和关机的警告
+1 Remember window size
+2 记住窗口大小
+1 &Help
+2 帮助(&H)
+1 &About
+2 关于(&A)
+# Main window -------------------------------------------------------------
+1 PID
+2 PID
+1 Status
+2 状态
+1 Sync
+2 同步
+1 Address/Port
+2 地址/端口
+1 Date/Time
+2 日期/时间
+1 Monitor
+2 监视器
+1 Polls
+2 轮询
+1 PC Name
+2 计算机名
+1 Job Name
+2 作业名称
+1 Percent
+2 百分比
+1 Arrange
+2 排列
+1 Show in foreground
+2 前台显示
+1 Hide in background
+2 隐藏到后台
+1 Remove item
+2 移除项目
+1 Clear all items
+2 清除所有项目
+1 Are you sure do you want to remove all items from list?
+2 是否真的要从列表中移除所有项目?
+1 Test paths to sync
+2 测试要同步的路径
+1 Start sync
+2 开始同步
+1 Stop sync
+2 停止同步
+1 Close
+2 关闭
+1 Restart
+2 重新启动
+1 Restart + Start Sync
+2 重新启动+开始同步
+1 Restart and start sync
+2 重新开始并开始同步
+1 Show
+2 显示
+1 Hide
+2 隐藏
+1 Enable Monitor
+2 启用监视器
+1 Disable Monitor
+2  禁用监视器
+1 Local Address:
+2 本地地址:
+1 Local Port:
+2 本地端口:
+1 Report alerts by &Email
+2 通过邮件报告警告(&E)
+1 If a remote instance hungs or crashes, send an email report
+2 如果远程实例挂起或崩溃则发送邮件报告
+1 &Clear dead instances
+2 清除无反应的实例(&C)
+1 Remove from list all dead or closed instances (if any)
+2 从列表中移除所有无反应或关闭的实例(如果存在)
+1 E&xit
+2 退出(&X)
+1 Start monitoring
+2 开始监视
+1 Stop monitoring
+2 停止监视
+1 OK
+2 OK
+1 Fail
+2 失败
+1 Test connection from Remote
+2 从远程测试连接
+1 DSynchronize Controller is actually unable to activate monitoring on port
+2 DSynchronize控制器无法在端口上激活监视 
+1 try to change port number or check firewall rules.
+2 请尝试更改端口号或检查防火墙规则.
+1 Do you want retry to activate the monitor?
+2 是否要重试激活监视?
+1 auto retry connection every 10 secs
+2 每隔10秒自动重试连接
+1 Test Sync paths
+2 测试同步路径
+# Email window ----------------------------------------------------------
+1 DSynchronize Remote Controller - Email Report
+2 DSynchronize 远程控制器 - 邮件报告
+1 Log Email Settings
+2 邮件发送日志设置
+1 Cancel
+2 取消
+1 Send To:
+2 收件人:
+1 Send To
+2 发送到
+1 Email of destination, you can insert more email separated with semicolons
+2 邮件目的地, 你可用英文分号分隔插入更多邮箱地址
+1 Email Sender:
+2 发件人:
+1 Email Sender (only if is different from "Send To")
+2 邮件发送者(只有在和"收件人"不同时)
+1 Sender Passwd:
+2 发件人密码:
+1 Email Sender Password
+2 邮件发送者密码
+1 Show Password
+2 显示密码
+1 SMTP Server:
+2 SMTP服务器:
+1 SMTP Port:
+2 SMTP端口:
+1 Use SSL encryption
+2 使用SSL加密
+1 Send an alert report if the application is unable to start monitoring
+2 若应用程序无法开始监视则发送邮件警告
+1 Send a screenshot in attachment
+2 在附件中发送一个屏幕截图
+1 Preserve dead instances from list after sending email
+2 发送电子邮件后, 从列表中保留无反应的实例
+1 Send Test Email
+2 发送测试邮件
+1 DSynchronize - Email
+2 DSynchronize - 邮件
+1 Email Sender: Email address is not valid
+2 发件人:邮件地址无效
+1 Send To: Email address is not valid
+2 收件人:邮件地址无效
+1 Sending test Email... DONE
+2 正在发送测试邮件... 完成
+1 Sending test Email... FAIL
+2 正在发送测试邮件... 失败
+# Help window --------------------------------------------------------------------
+1 DSynchronize Monitor
+2 DSynchronize 监视器
+1 This controller allows to monitor several instances of DSynchronize from other PCs on network.
+2 这个控制器允许监视网络上其他电脑上的多个DSynchronize实例.
+1 How to start monitoring
+2 如何开始监视
+1 Just enable "Remote Controller" checkbox on DSynchronize interface.
+2 只需在DSynchronize界面上勾选"远程控制器"选项.
+1 With this controller you can survey many DSynchronize instances on different workstations.
+2 使用这个控制器你可检查在不同的工作站上的多个DSynchronize实例.
+1 Remark
+2 备注
+1 Some antiviruses can report the controller as a Trojan, since it opens a port in listen mode. It's a false positive!
+2 某些杀毒软件会报告控制器是木马, 因为它会打开侦听端口, 所以这个是误报!
+1 Ok
+2 OK
+# About window --------------------------------------------------------------
+1 DSynchronize Remote Controller - About
+2 DSynchronize 远程控制器 - 关于
+1 e-mail:
+2 邮件:
+1 home page:
+2 主页:
+1 Version
+2 版本
+# Report email --------------------------------------------------------------
+1 DSynchronize Controller Email Test
+2 DSynchronize 控制器邮件测试
+1 Email sent from DSynchronize Controller for testing purposes
+2 邮件由DSynchronize控制器发送, 用于测试用途
+1 Sent from PC
+2 由此电脑发送
+1 Email Test Successfull
+2 邮件测试成功
+1 DSynchronize Controller Report		
+2 DSynchronize控制器报告
+1 Email Report Sending
+2 邮件报告正在发送
+1 EMAIL-SENT
+2 邮件-已发送
+1 An instance of DSynchronize is not responding
+2 一个DSynchronize实例没有反应
+1 Instance details
+2 实例详情
+1 Host
+2 主机
+1 Sync Count
+2 同步计数
+1 Last Status
+2 最后状态
+1 Last Report
+2 最后报告
+1 Sent by
+2 发送者
+1 on
+2 在
+1 - Error ''unable to start monitoring''.
+2 - 错误"无法开始监视".
+1 is unable to start monitoring.
+2 无法开始监视.
+1 Try to change port number or check firewall rules.
+2 请尝试更改端口号或检查防火墙规则.
+1 Report by &Email
+2 使用邮件报告(&E)
