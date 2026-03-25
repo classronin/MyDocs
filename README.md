@@ -1,4 +1,5 @@
-
+[DSynchronize.lng](Download/DSynchronize/DSynchronize Chinese (CHS) Pack/DSynchronize.lng)
+[Monitor.lng](Download/DSynchronize/DSynchronize Chinese (CHS) Pack/Monitor.lng)
 ---
 
 [![Scoop 版本](https://img.shields.io/github/v/release/ScoopInstaller/Scoop?label=Scoop)](https://github.com/ScoopInstaller/Scoop/releases/latest)
