@@ -139,6 +139,9 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![ DeOldify.NET 黑白照片上彩](https://img.shields.io/github/v/release/ColorfulSoft/DeOldify.NET?label=DeOldify.NET%20黑白照片上彩)](https://github.com/ColorfulSoft/DeOldify.NET/releases/latest)
 [![下载 Windows 版](https://img.shields.io/badge/下载-Win)](https://github.com/ColorfulSoft/DeOldify.NET/releases/latest/download/DeOldify.NET.win.exe)
 
+文件同步工具[官网](http://dimio.altervista.org/eng/) [Win.zip](http://dimiodati.altervista.org/zip/dsynchronize.zip) 
+[中文(简体)补丁](http://dimio.altervista.org/zip/DSynchronize%20Chinese%20(CHS)%20Pack.zip)
+
 [![GIMP 图像编辑器](https://img.shields.io/github/v/tag/GNOME/gimp?label=GIMP-图像编辑器)](https://github.com/GNOME/gimp/tags)
 `scoop install GIMP`
 
