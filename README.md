@@ -71,6 +71,9 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![最新 Pixi 版本](https://img.shields.io/github/v/release/prefix-dev/pixi?label=Pixi)](https://github.com/prefix-dev/pixi/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/prefix-dev/pixi/releases/latest/download/pixi-x86_64-pc-windows-msvc.zip)
 
+[![最新 Node.js 版本](https://img.shields.io/github/v/release/nodejs/node?label=Node.js)](https://github.com/nodejs/node/releases/latest)
+`scoop install nodejs-lts`
+
 [![最新 pnpm 版本](https://img.shields.io/github/v/release/pnpm/pnpm?label=pnpm)](https://github.com/pnpm/pnpm/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/pnpm/pnpm/releases/latest/download/pnpm-win-x64.exe)
 
