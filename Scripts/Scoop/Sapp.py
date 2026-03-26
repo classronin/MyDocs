@@ -9,59 +9,35 @@ import argparse
 import tempfile
 import shutil
 import subprocess
+import msvcrt
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlsplit
 
 # ==================== 配置 ====================
-MIRROR = 'https://gh-proxy.com'        # GitHub 镜像（用户测试可用）
+MIRROR = 'https://gh-proxy.com'
 
 # ==================== 工具函数 ====================
 def get_scoop_base():
-    """获取 Scoop 根目录"""
     return Path(os.environ.get('SCOOP', Path.home() / 'scoop'))
 
 def get_cache_dir():
-    """获取 Scoop 缓存目录"""
     cache_dir = get_scoop_base() / 'cache'
     cache_dir.mkdir(parents=True, exist_ok=True)
     return cache_dir
-    
+
 def get_all_buckets():
-    """获取所有本地 bucket 名称（buckets 目录下的子目录名）"""
     buckets_dir = get_scoop_base() / 'buckets'
     if not buckets_dir.is_dir():
         return []
     return [d.name for d in buckets_dir.iterdir() if d.is_dir()]
 
-def find_matches(app_name):
-    """
-    从本地 bucket 中搜索包含 app_name 的应用（不区分大小写）。
-    返回列表，每个元素为 (应用名, bucket, data, 版本, url)
-    """
-    matches = []
-    app_lower = app_name.lower()
-    for bucket in get_all_buckets():                     # 动态获取所有 bucket
-        names = get_local_app_names(bucket)
-        if not names:
-            continue
-        for name in names:
-            if app_lower in name.lower():
-                data = read_manifest(bucket, name)
-                if data:
-                    version, url = parse_manifest(data)
-                    if url:
-                        matches.append((name, bucket, data, version, url))
-    return matches
-
 def get_local_app_names(bucket):
-    """从本地 bucket 目录读取所有应用名（返回列表）"""
     bucket_dir = get_scoop_base() / 'buckets' / bucket / 'bucket'
     if not bucket_dir.is_dir():
         return []
     return [p.stem for p in bucket_dir.glob('*.json')]
 
 def read_manifest(bucket, name):
-    """从本地 bucket 读取 manifest JSON 文件"""
     manifest_path = get_scoop_base() / 'buckets' / bucket / 'bucket' / f"{name}.json"
     if not manifest_path.is_file():
         return None
@@ -72,7 +48,7 @@ def read_manifest(bucket, name):
         return None
 
 def parse_manifest(data):
-    """从 manifest 提取版本和下载 URL（优先 64bit）"""
+    """返回 (版本, 完整URL) ，URL包含可能的锚点"""
     version = data.get('version', '')
     url = None
     if 'architecture' in data and '64bit' in data['architecture']:
@@ -86,32 +62,66 @@ def parse_manifest(data):
                 break
     return version, url
 
+def split_url_fragment(url):
+    """将URL拆分为 (基础URL, 锚点)，锚点可能为空"""
+    parsed = urlsplit(url)
+    base = parsed._replace(fragment='').geturl()
+    fragment = parsed.fragment
+    return base, fragment
+
 def compute_url_hash(url):
-    """计算 URL 的 SHA256 并返回前7位"""
+    """计算完整URL的SHA256并返回前7位"""
     sha256 = hashlib.sha256(url.encode()).hexdigest()
     return sha256[:7]
 
 def get_extension(url):
-    """从 URL 提取扩展名，默认 .zip"""
+    """
+    从 URL 提取扩展名，正确处理 #/ 锚点。
+    如果 URL 包含 #/，则取锚点部分的扩展名（如 .msi_）。
+    """
+    if '#/' in url:
+        fragment = url.split('#/')[-1]
+        # 去掉可能的多余锚点
+        if '#' in fragment:
+            fragment = fragment.split('#')[0]
+        ext = os.path.splitext(fragment)[1]
+        if ext:
+            return ext
+    # 否则从路径中提取
     path = urlparse(url).path
     ext = os.path.splitext(path)[1]
     return ext if ext else '.zip'
 
 def extract_filename_from_url(url):
-    """从 URL 中提取文件名（忽略查询参数和锚点）"""
+    """
+    从 URL 提取最终的文件名（考虑 #/ 锚点）。
+    如果 URL 包含 #/，返回锚点指定的文件名（如 dl.msi_）；否则返回路径的最后一部分。
+    """
+    if '#/' in url:
+        fragment = url.split('#/')[-1]
+        if '#' in fragment:
+            fragment = fragment.split('#')[0]
+        return fragment
+    # 去掉查询参数和锚点
     if '#' in url:
         url = url.split('#')[0]
     path = urlparse(url).path
-    filename = os.path.basename(path)
-    return filename
+    return os.path.basename(path)
 
 def download_with_surge(url, dest_path):
-    """使用 surge 下载文件，保存到 dest_path"""
-    actual_url = url
-    if MIRROR and url.startswith('https://github.com/'):
-        actual_url = f"{MIRROR}/{url}"
+    """
+    使用 surge 下载文件，保存到 dest_path。
+    正确处理 #/ 锚点：下载基础 URL，但用锚点指定的文件名保存。
+    """
+    # 分离基础 URL 和锚点
+    base_url = url
+    expected_filename = extract_filename_from_url(url)  # 获取期望的文件名（如 dl.msi_）
+    if '#/' in url:
+        base_url = url.split('#')[0]  # 去掉锚点部分
+    actual_url = base_url
+    if MIRROR and base_url.startswith('https://github.com/'):
+        actual_url = f"{MIRROR}/{base_url}"
 
-    expected_filename = extract_filename_from_url(actual_url)
     tmp_dir = Path(tempfile.mkdtemp())
     try:
         cmd = [
@@ -123,6 +133,7 @@ def download_with_surge(url, dest_path):
         print(f"正在调用 surge: {' '.join(cmd)}")
         subprocess.run(cmd, check=True)
 
+        # 查找下载的文件（可能名称与预期不同）
         downloaded_file = tmp_dir / expected_filename
         if not downloaded_file.exists():
             files = list(tmp_dir.iterdir())
@@ -130,7 +141,6 @@ def download_with_surge(url, dest_path):
                 downloaded_file = files[0]
             else:
                 raise Exception(f"无法确定下载的文件，临时目录内容: {[f.name for f in files]}")
-
         shutil.move(str(downloaded_file), str(dest_path))
         return True
     except subprocess.CalledProcessError as e:
@@ -143,10 +153,6 @@ def download_with_surge(url, dest_path):
         shutil.rmtree(tmp_dir, ignore_errors=True)
 
 def find_matches(app_name):
-    """
-    从本地 bucket 中搜索包含 app_name 的应用（不区分大小写）。
-    返回列表，每个元素为 (应用名, bucket, data, 版本, url)
-    """
     matches = []
     app_lower = app_name.lower()
     for bucket in get_all_buckets():
@@ -162,8 +168,42 @@ def find_matches(app_name):
                         matches.append((name, bucket, data, version, url))
     return matches
 
+def sort_matches(matches):
+    priority = {'main': 0, 'extras': 1}
+    def key_func(item):
+        bucket = item[1]
+        return (priority.get(bucket, 2), bucket, item[0])
+    return sorted(matches, key=key_func)
+
+def select_match(matches):
+    def print_menu(selected):
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print(f"找到 {len(matches)} 个匹配项，使用 ↑/↓ 选择，回车确认:")
+        for i, (name, bucket, data, version, url) in enumerate(matches):
+            prefix = " → " if i == selected else "   "
+            print(f"{prefix}{i+1}. {name} (bucket: {bucket}) 版本: {version}")
+        print("按 ESC 取消")
+
+    selected = 0
+    print_menu(selected)
+    while True:
+        key = msvcrt.getch()
+        if key == b'\xe0':
+            key = msvcrt.getch()
+            if key == b'H':
+                selected = (selected - 1) % len(matches)
+                print_menu(selected)
+            elif key == b'P':
+                selected = (selected + 1) % len(matches)
+                print_menu(selected)
+        elif key == b'\r':
+            return selected
+        elif key == b'\x1b':
+            return None
+        elif key in (b'q', b'Q'):
+            return None
+
 def main():
-    # 检查是否缺少必要参数
     if len(sys.argv) < 2:
         print("用法: sapp.py <应用名称>")
         print("示例: sapp.py git")
@@ -185,38 +225,17 @@ def main():
         print("提示: 请确保已添加对应的 bucket（如 main, extras）并运行过 scoop update")
         sys.exit(1)
 
-    # 显示所有匹配项
-    print(f"\n找到 {len(matches)} 个匹配项:")
-    for idx, (name, bucket, data, version, url) in enumerate(matches, 1):
-        print(f"  {idx}. {name} (bucket: {bucket}) 版本: {version}")
-    print("  0 或 q. 取消")
+    matches = sort_matches(matches)
+    selected_idx = select_match(matches)
+    if selected_idx is None:
+        print("取消下载")
+        sys.exit(0)
 
-    # 用户选择
-    while True:
-        try:
-            choice = input("请选择要下载的编号: ").strip()
-        except KeyboardInterrupt:
-            print("\n用户取消")
-            sys.exit(1)
-        if not choice:
-            continue
-        # 检查取消
-        if choice.lower() in ('0', 'q'):
-            print("取消下载")
-            sys.exit(0)
-        try:
-            idx = int(choice)
-            if 1 <= idx <= len(matches):
-                name, bucket, data, version, url = matches[idx-1]
-                break
-            else:
-                print(f"请输入 1 到 {len(matches)} 之间的数字，或输入 0/q 取消")
-        except ValueError:
-            print("输入无效，请输入数字或 q 取消")
+    name, bucket, data, version, url = matches[selected_idx]
 
-    # 生成缓存文件名
+    # 生成缓存文件名（使用 Python 手动计算，确保正确处理 #/ 锚点）
     hash7 = compute_url_hash(url)
-    ext = get_extension(url)
+    ext = get_extension(url)          # 现在会返回 .msi_
     cache_filename = f"{name}#{version}#{hash7}{ext}"
     cache_dir = get_cache_dir()
     cache_path = cache_dir / cache_filename
@@ -225,7 +244,6 @@ def main():
         print(f"文件已存在: {cache_path}")
         sys.exit(0)
 
-    # 临时下载
     with tempfile.NamedTemporaryFile(delete=False) as tmp:
         tmp_path = Path(tmp.name)
 
