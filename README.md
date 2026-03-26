@@ -17,6 +17,9 @@ SCOOP_REPO=https://gitee.com/glsnames/scoop-installer
 ```
 [Extras](https://github.com/ScoopInstaller/Extras) - [Main](https://github.com/ScoopInstaller/Main)
 
+`scoop7 https://...zip`[说明](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Scripts/Scoop/Scoop7%E8%AF%B4%E6%98%8E.txt)
+ —— [Scoop7.bat](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Scripts/Scoop/Scoop7.bat)
+
 ---
 
 ![Aria2 版本](https://img.shields.io/scoop/v/aria2?label=Aria2)
