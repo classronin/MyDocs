@@ -1,0 +1,29 @@
+Scoop 缓存预填充助手（so.bat）
+========================================
+【功能】查询 Scoop 应用的下载网址、完整 SHA256、前7位哈希、缓存文件名，用于手动预填充缓存。
+
+【依赖】curl（必须）、certutil（自带）
+
+【用法】so <应用名>
+示例：so fd
+
+【输出示例】
+应用: fd (来源: main)
+版本: 10.4.2
+下载网址: https://github.com/sharkdp/fd/releases/download/v10.4.2/fd-v10.4.2-x86_64-pc-windows-msvc.zip
+完整SHA256: 1c15d5bd16c1708b328a4248b9a1dadf6433a0ea0037579344630aff9c480702
+哈希前7位: 1c15d5b
+缓存文件名: fd#10.4.2#1c15d5b.zip
+
+【配置】脚本开头可修改：
+BUCKETS：搜索的 bucket 列表（默认 main extras versions ...）
+TIMEOUT：超时秒数（默认 3）
+MIRRORS：镜像地址（默认 https://gh-proxy.com/）
+
+【预填充步骤】
+1. 根据下载网址手动下载文件
+2. 重命名为“缓存文件名”
+3. 放入 %SCOOP%\cache
+4. 执行 scoop install <应用名>
+
+【说明】精确匹配，不自动扩展别名。依赖 curl，无 PowerShell。
