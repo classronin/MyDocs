@@ -13,7 +13,6 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 # ==================== 配置 ====================
-BUCKETS = ['main', 'extras']           # 要搜索的 bucket 列表
 MIRROR = 'https://gh-proxy.com'        # GitHub 镜像（用户测试可用）
 
 # ==================== 工具函数 ====================
@@ -26,6 +25,33 @@ def get_cache_dir():
     cache_dir = get_scoop_base() / 'cache'
     cache_dir.mkdir(parents=True, exist_ok=True)
     return cache_dir
+    
+def get_all_buckets():
+    """获取所有本地 bucket 名称（buckets 目录下的子目录名）"""
+    buckets_dir = get_scoop_base() / 'buckets'
+    if not buckets_dir.is_dir():
+        return []
+    return [d.name for d in buckets_dir.iterdir() if d.is_dir()]
+
+def find_matches(app_name):
+    """
+    从本地 bucket 中搜索包含 app_name 的应用（不区分大小写）。
+    返回列表，每个元素为 (应用名, bucket, data, 版本, url)
+    """
+    matches = []
+    app_lower = app_name.lower()
+    for bucket in get_all_buckets():                     # 动态获取所有 bucket
+        names = get_local_app_names(bucket)
+        if not names:
+            continue
+        for name in names:
+            if app_lower in name.lower():
+                data = read_manifest(bucket, name)
+                if data:
+                    version, url = parse_manifest(data)
+                    if url:
+                        matches.append((name, bucket, data, version, url))
+    return matches
 
 def get_local_app_names(bucket):
     """从本地 bucket 目录读取所有应用名（返回列表）"""
@@ -123,7 +149,7 @@ def find_matches(app_name):
     """
     matches = []
     app_lower = app_name.lower()
-    for bucket in BUCKETS:
+    for bucket in get_all_buckets():
         names = get_local_app_names(bucket)
         if not names:
             continue
