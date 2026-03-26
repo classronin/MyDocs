@@ -141,7 +141,10 @@ s https://...zip   # 下载至CMD当前目录的路径
 
 
 ---
-### 应用程序
+### 图形应用程序
+
+[![ Stellarium 虚拟天文馆 ](https://img.shields.io/github/v/release/Stellarium/stellarium?label=Stellarium%20虚拟天文馆)](https://github.com/Stellarium/stellarium/releases/latest)
+`scoop install Stellarium`
 
 ![Thunderbird 邮件](https://img.shields.io/scoop/v/thunderbird?bucket=extras&label=Thunderbird%20%E9%82%AE%E4%BB%B6)
 `scoop install Thunderbird`
