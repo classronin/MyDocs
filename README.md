@@ -57,30 +57,53 @@ s https://...zip   # 下载至CMD当前目录的路径
 ---
 ### CLI
 
-[![最新 uv 版本](https://img.shields.io/github/v/release/astral-sh/uv?label=UV)](https://github.com/astral-sh/uv/releases/latest)
+[![ uv ](https://img.shields.io/github/v/release/astral-sh/uv?label=UV)](https://github.com/astral-sh/uv/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/astral-sh/uv/releases/latest/download/uv-x86_64-pc-windows-msvc.zip)
+`scoop install uv` 
+```
+==== 配硬连接和同盘即可去重复 ===================
+:: === UV 缓存目录 ======
+UV_CACHE_DIR=E:\AppData\uv\cache
+----------------------------------------------
+:: === 硬连接-Python与uv缓存 ===================
+UV_LINK_MODE=hardlink
+clone   |同盘|无空间​|默认|
+copy    |复制|占空间​|uv和pip的缓存混合就用
+symlink |跨盘|无空间|软链接|权限
+hardlink|同盘|无空间​|硬链接|
+----------------------------------------------
+UV_TOOL_DIR=E:\AppData\uv\tools  # uv 工具目录
+UV_TOOL_BIN_DIR=E:\AppData\uv\bin  # uv 工具可执行目录
+---------------------------------------------------
+UV_TORCH_BACKEND=cu126 # CUDA 标记 auto/cu126/cpu
+---------------------------------------------------
+:: === 安装工具二进制 bin 目录 ===
+UV_TOOL_BIN_DIR=E:\AppData\uv\bin
+E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 
-[![最新 python-build-standalone 版本](https://img.shields.io/github/v/release/astral-sh/python-build-standalone?label=Python)](https://github.com/astral-sh/python-build-standalone/releases/latest)
+```
+
+[![ python-build-standalone ](https://img.shields.io/github/v/release/astral-sh/python-build-standalone?label=Python)](https://github.com/astral-sh/python-build-standalone/releases/latest)
 `uv python install 3.12`
 
-[![最新Bun版本](https://img.shields.io/github/v/release/oven-sh/bun?label=Bun)](https://github.com/oven-sh/bun/releases/latest)
+[![ Bun ](https://img.shields.io/github/v/release/oven-sh/bun?label=Bun)](https://github.com/oven-sh/bun/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/oven-sh/bun/releases/latest/download/bun-windows-x64-baseline.zip)
 
-[![最新 Deno 版本](https://img.shields.io/github/v/release/denoland/deno?label=Deno)](https://github.com/denoland/deno/releases/latest)
+[![ Deno ](https://img.shields.io/github/v/release/denoland/deno?label=Deno)](https://github.com/denoland/deno/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/denoland/deno/releases/latest/download/deno-x86_64-pc-windows-msvc.zip)
 
-[![最新 Pixi 版本](https://img.shields.io/github/v/release/prefix-dev/pixi?label=Pixi)](https://github.com/prefix-dev/pixi/releases/latest)
+[![ Pixi ](https://img.shields.io/github/v/release/prefix-dev/pixi?label=Pixi)](https://github.com/prefix-dev/pixi/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/prefix-dev/pixi/releases/latest/download/pixi-x86_64-pc-windows-msvc.zip)
 
-[![最新 Node.js 版本](https://img.shields.io/github/v/release/nodejs/node?label=Node.js)](https://github.com/nodejs/node/releases/latest)
+[![ Node.js ](https://img.shields.io/github/v/release/nodejs/node?label=Node.js)](https://github.com/nodejs/node/releases/latest)
 `scoop install nodejs-lts`
 
-[![最新 pnpm 版本](https://img.shields.io/github/v/release/pnpm/pnpm?label=pnpm)](https://github.com/pnpm/pnpm/releases/latest)
+[![ pnpm ](https://img.shields.io/github/v/release/pnpm/pnpm?label=pnpm)](https://github.com/pnpm/pnpm/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/pnpm/pnpm/releases/latest/download/pnpm-win-x64.exe)
 
-[![yt-dlp 版本](https://img.shields.io/github/v/release/yt-dlp/yt-dlp?label=yt-dlp)](https://github.com/yt-dlp/yt-dlp/releases/latest)
+[![ yt-dlp ](https://img.shields.io/github/v/release/yt-dlp/yt-dlp?label=yt-dlp)](https://github.com/yt-dlp/yt-dlp/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_win.zip)
-`scoop install yt-dlp`
+`scoop install yt-dlp`  下载视频命令:`yt-dlp <URL>`
 
 [![CMake 构建系统生成器](https://img.shields.io/github/v/release/Kitware/CMake?label=CMake-构建系统生成器)](https://github.com/Kitware/CMake/releases/latest)
 `scoop install cmake`
@@ -88,8 +111,12 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![fd 命令行搜索工具](https://img.shields.io/github/v/release/sharkdp/fd?label=fd-命令行搜索工具)](https://github.com/sharkdp/fd/releases/latest)
  `scoop install fd`   [中文文档](https://github.com/cha0ran/fd-zh?tab=readme-ov-file#command-line-options)
 
-[![ImageMagick 命令行图像处理工具](https://img.shields.io/github/v/release/ImageMagick/ImageMagick?label=ImageMagick-命令行图像处理工具)](https://github.com/ImageMagick/ImageMagick/releases/latest)
+[![ImageMagick 命令行图像处理工具](https://img.shields.io/github/v/release/ImageMagick/ImageMagick?label=ImageMagick%20命令行图像处理工具)](https://github.com/ImageMagick/ImageMagick/releases/latest)
 `scoop install imagemagick` 
+
+[![BBDown 下载bilibili视频](https://img.shields.io/github/v/release/nilaoda/BBDown?label=BBDown%20下载bilibili视频)](https://github.com/nilaoda/BBDown/releases/latest)
+`scoop install BBDown`  下载视频命令:`BBDown <URL>`
+
 
 ---
 
@@ -221,7 +248,12 @@ s https://...zip   # 下载至CMD当前目录的路径
 [![最新 chroma 版本](https://img.shields.io/github/v/release/chroma-core/chroma?label=Chroma-向量数据库)](https://github.com/chroma-core/chroma/releases/latest)
 
 [![最新 huggingface_hub 版本](https://img.shields.io/github/v/release/huggingface/huggingface_hub?label=huggingface_hub)](https://github.com/huggingface/huggingface_hub/releases/latest)
-`uv pip install huggingface_hub huggingface_hub[hf_xet] hf_xet`
+`uv pip install huggingface_hub[hf_xet]`
+
+HFCMD便捷`uv pip install huggingface_hub[hf_xet] rich`
+[HFCMD.py](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Scripts/HFCMD/HFCMD.py) 
+[HFCMD.bat](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Scripts/HFCMD/HFCMD.bat)
+
 
 [![Zensical 现代静态网站生成器](https://img.shields.io/github/v/release/zensical/zensical?label=Zensical-现代静态网站生成器)](https://github.com/zensical/zensical/releases/latest)
 `uv pip install Zensical`
