@@ -250,9 +250,7 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 [![最新 huggingface_hub 版本](https://img.shields.io/github/v/release/huggingface/huggingface_hub?label=huggingface_hub)](https://github.com/huggingface/huggingface_hub/releases/latest)
 `uv pip install huggingface_hub[hf_xet]`
 
-HFCMD便捷`uv pip install huggingface_hub[hf_xet] rich`
-[HFCMD.py](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Scripts/HFCMD/HFCMD.py) 
-[HFCMD.bat](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Scripts/HFCMD/HFCMD.bat)
+
 
 
 [![Zensical 现代静态网站生成器](https://img.shields.io/github/v/release/zensical/zensical?label=Zensical-现代静态网站生成器)](https://github.com/zensical/zensical/releases/latest)

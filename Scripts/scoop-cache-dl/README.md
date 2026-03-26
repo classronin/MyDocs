@@ -1,4 +1,4 @@
-# sapp - Scoop 缓存下载器（surge 加速版）
+# sapp - Scoop 缓存下载器（Surge 加速版）
 
 `sapp` 是一个命令行工具，用于提前下载 Scoop 应用的安装包到缓存目录，避免 Scoop 安装或更新时重复下载。它自动遍历所有本地 bucket，支持模糊匹配，并提供交互式选择菜单。
 
@@ -19,6 +19,12 @@ uv run sapp.py <应用名称>
 
 或（如果已加入 PATH）：sapp.bat
 ```
+@echo off
+cd /d "%SCRIPTS%\Scoop"
+uv run Sapp.py %*
+```
+
+```
 sapp <应用名称>
 ```
 
@@ -37,9 +43,9 @@ sapp uv           # 搜索包含 uv 的应用
 
 注意事项
 运行前建议执行 scoop update 确保本地 bucket 最新
-若 Scoop 安装/更新时仍重新下载，可先执行 scoop uninstall <应用> 清除安装状态，再重新安装
+
 
 依赖
-Python 3.12+
+[![ python-build-standalone ](https://img.shields.io/github/v/release/astral-sh/python-build-standalone?label=Python)](https://github.com/astral-sh/python-build-standalone/releases/latest)
 [![Scoop 版本](https://img.shields.io/github/v/release/ScoopInstaller/Scoop?label=Scoop)](https://github.com/ScoopInstaller/Scoop/releases/latest)
 
