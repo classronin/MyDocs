@@ -1,0 +1,28 @@
+scoop7.bat - 从下载 URL 生成 Scoop 缓存哈希（前 7 位 SHA256）
+
+用途：
+  根据下载链接计算 Scoop 缓存文件名中使用的 7 位哈希值。
+  例如：ollama-full#0.18.3#27f42b3.exe 中的“27f42b3”即可由此工具获得。
+
+使用方法：
+  scoop7.bat <URL>
+
+示例：
+  scoop7.bat https://github.com/ollama/ollama/releases/download/v0.18.3/OllamaSetup.exe
+  输出：27f42b3
+
+工作原理：
+  1. 将 URL 字符串（不含换行符）写入临时文件。
+  2. 使用 Windows 自带的 certutil 计算该文件的 SHA256 哈希。
+  3. 取哈希字符串的前 7 个字符（小写）作为输出。
+
+注意事项：
+  - 依赖系统命令 certutil（Windows 自带，无需额外安装）。
+  - URL 必须正确，包含协议头（http:// 或 https://）。
+  - 输出仅为 7 位小写十六进制，不含换行符以外的额外内容，便于直接用于重命名。
+  - 临时文件会自动清理。
+
+文件位置：%USERPROFILE%\Scoop缓存命名哈希值\scoop7.bat
+建议将该文件夹添加到系统 PATH 环境变量中，即可在任何目录下调用。
+
+创建日期：2026-03-26
