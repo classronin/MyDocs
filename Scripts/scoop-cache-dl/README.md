@@ -47,6 +47,20 @@ sapp uv           # 搜索包含 uv 的应用
 
 依赖
 
+[![Scoop 版本](https://img.shields.io/github/v/release/ScoopInstaller/Scoop?label=Scoop)](https://github.com/ScoopInstaller/Scoop/releases/latest)
+```
+# Scoop 环境配置
+SCOOP=E:\Scoop
+设置后，运行以下二行命令会安装到环境变量指定的路径
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+
+# 指定 Scoop 核心仓库的 Git 地址（可以是镜像源或自定义分支）
+SCOOP_REPO=https://github.com/ScoopInstaller/Install 
+SCOOP_REPO=https://ghfast.top/https://github.com/ScoopInstaller/Install
+SCOOP_REPO=https://gitee.com/glsnames/scoop-installer
+```
+
 [![ uv ](https://img.shields.io/github/v/release/astral-sh/uv?label=UV)](https://github.com/astral-sh/uv/releases/latest)
 ```
 scoop install uv
