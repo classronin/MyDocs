@@ -46,6 +46,19 @@ sapp uv           # 搜索包含 uv 的应用
 
 
 依赖
+
+[![ uv ](https://img.shields.io/github/v/release/astral-sh/uv?label=UV)](https://github.com/astral-sh/uv/releases/latest)
+```
+scoop install uv
+```
+
 [![ python-build-standalone ](https://img.shields.io/github/v/release/astral-sh/python-build-standalone?label=Python)](https://github.com/astral-sh/python-build-standalone/releases/latest)
+```
+uv python install 3.12
+```
+
 [![Scoop 版本](https://img.shields.io/github/v/release/ScoopInstaller/Scoop?label=Scoop)](https://github.com/ScoopInstaller/Scoop/releases/latest)
+```
+scoop install surge
+```
 
