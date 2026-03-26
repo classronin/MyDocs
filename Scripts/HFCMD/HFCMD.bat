@@ -1,4 +1,4 @@
 @echo off
-cd /d "E:\Env\Scripts\HFCMD"
+cd /d "%SCRIPTS%\HFCMD"
 uv run HFCMD.py
 pause
