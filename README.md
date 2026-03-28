@@ -88,6 +88,11 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 [![ python-build-standalone ](https://img.shields.io/github/v/release/astral-sh/python-build-standalone?label=Python)](https://github.com/astral-sh/python-build-standalone/releases/latest)
 `uv python install 3.12`
 
+
+[![ WindTerm 终端 ](https://img.shields.io/github/v/release/KingToolBox/WindTerm?label=WindTerm%20终端)](https://github.com/KingToolBox/WindTerm/releases/latest)
+`scoop install extras/windterm`
+
+
 [![ Bun ](https://img.shields.io/github/v/release/oven-sh/bun?label=Bun)](https://github.com/oven-sh/bun/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/oven-sh/bun/releases/latest/download/bun-windows-x64-baseline.zip)
 
