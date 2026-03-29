@@ -143,23 +143,23 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 
 ### 媒体处理工具
 
-[![最新 FFmpeg 命令行音视频处理](https://img.shields.io/github/v/release/GyanD/codexffmpeg?label=FFmpeg-命令行音视频处理)](https://github.com/GyanD/codexffmpeg/releases/latest)
+[![ FFmpeg 命令行音视频处理 ](https://img.shields.io/github/v/release/GyanD/codexffmpeg?label=FFmpeg%20命令行音视频处理)](https://github.com/GyanD/codexffmpeg/releases/latest)
 `scoop install ffmpeg`
 
-[![HandBrake 视频转码](https://img.shields.io/github/v/release/HandBrake/HandBrake?label=HandBrake-视频转码)](https://github.com/HandBrake/HandBrake/releases/latest)
+[![ HandBrake 视频转码 ](https://img.shields.io/github/v/release/HandBrake/HandBrake?label=HandBrake%20视频转码)](https://github.com/HandBrake/HandBrake/releases/latest)
 `scoop install HandBrake`
 
-[![LosslessCut 无损剪辑](https://img.shields.io/github/v/release/mifi/lossless-cut?label=LosslessCut-无损剪辑)](https://github.com/mifi/lossless-cut/releases/latest)
+[![ LosslessCut 无损剪辑 ](https://img.shields.io/github/v/release/mifi/lossless-cut?label=LosslessCut%20无损剪辑)](https://github.com/mifi/lossless-cut/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-win-x64.7z)
 `scoop install losslesscut`
 
-[![最新 Shotcut 视频编辑](https://img.shields.io/github/v/release/mltframework/shotcut?label=Shotcut-视频编辑)](https://github.com/mltframework/shotcut/releases/latest)
+[![ Shotcut 视频编辑 ](https://img.shields.io/github/v/release/mltframework/shotcut?label=Shotcut%20视频编辑)](https://github.com/mltframework/shotcut/releases/latest)
 `scoop install shotcut`
 
-[![最新 Blender 3D建模含视频编辑](https://img.shields.io/github/v/tag/blender/blender?label=Blender-3D建模含视频编辑)](https://github.com/blender/blender/tags)
+[![ Blender 3D建模含视频编辑 ](https://img.shields.io/github/v/tag/blender/blender?label=Blender%203D建模含视频编辑)](https://github.com/blender/blender/tags)
 `scoop install Blender`
 
-[![MPV 视频播放器](https://img.shields.io/github/v/release/mpv-player/mpv?label=MPV-视频播放器)](https://github.com/mpv-player/mpv/releases/latest)
+[![ MPV 视频播放器 ](https://img.shields.io/github/v/release/mpv-player/mpv?label=MPV%20视频播放器)](https://github.com/mpv-player/mpv/releases/latest)
 `scoop install mpv`
 
 把[mpv.conf](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/mpv.conf) 配置文件放在`%SCOOP%\apps\mpv\current\portable_config`目录下
@@ -177,8 +177,7 @@ https://www.videohelp.com/download/Icaros_v3.3.4_b1.zip
 ```
 
 [![JPEGView 图像浏览器](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView-图像浏览器)](https://github.com/sylikc/jpegview/releases/latest)
-`scoop install jpegview-fork`
-目录下JPEGView.ini 参考[配置](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JPEGView/JPEGView.ini%E8%AE%BE%E7%BD%AE.txt)
+`scoop install jpegview-fork` —— `%SCOOP%\apps\jpegview-fork\current` 目录下JPEGView.ini 参考[配置](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JPEGView/JPEGView.ini%E8%AE%BE%E7%BD%AE.txt)
 
 
 
