@@ -14,7 +14,7 @@ DownSamplingFilter=Narrow
 ShowFullScreen=false 
 
 ; 边框模式false/无边框模式true
-WindowBorderlessOnStartup=true
+WindowBorderlessOnStartup=false
 
 image/auto
 DefaultWindowRect=auto
