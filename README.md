@@ -59,6 +59,17 @@ bw https://.../10*.jpg   # 请输入网址模板 (使用 * 代替数字部分，
 ---
 ### CLI
 
+![ Clink 核心引擎 ](https://img.shields.io/scoop/v/clink-flex-prompt?label=Clink%20核心引擎)
+![ Clink-completions 补全扩展 ](https://img.shields.io/scoop/v/clink-completions?label=Clink-completions%20补全扩展)
+![ Clink-flex-prompt 美化提示符 ](https://img.shields.io/scoop/v/clink-flex-prompt?label=Clink-flex-prompt%20美化提示符)
+```
+scoop install clink clink-completions clink-flex-prompt
+clink               # 核心引擎
+clink-completions   # 补全扩展
+clink-flex-prompt   # 美化提示符
+```
+
+
 [![ uv ](https://img.shields.io/github/v/release/astral-sh/uv?label=UV)](https://github.com/astral-sh/uv/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/astral-sh/uv/releases/latest/download/uv-x86_64-pc-windows-msvc.zip)
 `scoop install uv` 
@@ -82,8 +93,8 @@ UV_TORCH_BACKEND=cu126 # CUDA 标记 auto/cu126/cpu
 :: === 安装工具二进制 bin 目录 ===
 UV_TOOL_BIN_DIR=E:\AppData\uv\bin
 E:\AppData\uv\bin # 添到 环境 系统变量 PATH
-
 ```
+
 
 [![ python-build-standalone ](https://img.shields.io/github/v/release/astral-sh/python-build-standalone?label=Python)](https://github.com/astral-sh/python-build-standalone/releases/latest)
 `uv python install 3.12`
