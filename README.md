@@ -17,8 +17,6 @@ SCOOP_REPO=https://gitee.com/glsnames/scoop-installer
 ```
 [Extras](https://github.com/ScoopInstaller/Extras) - [Main](https://github.com/ScoopInstaller/Main)
 
-Scoop 缓存预填充助手   【用法】`so <应用名>`  [说明](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Scripts/Scoop/So%E8%AF%B4%E6%98%8E.txt)
- —— [So.bat](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Scripts/Scoop/So.bat)
 
 ---
 
