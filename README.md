@@ -160,7 +160,13 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 `scoop install Blender`
 
 [![MPV 视频播放器](https://img.shields.io/github/v/release/mpv-player/mpv?label=MPV-视频播放器)](https://github.com/mpv-player/mpv/releases/latest)
-`scoop install mpv` 把[mpv.conf](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/mpv.conf)配置文件放在`%SCOOP%\apps\mpv\current\portable_config`目录下
+`scoop install mpv`
+
+把[mpv.conf](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/mpv.conf) 配置文件放在`%SCOOP%\apps\mpv\current\portable_config`目录下
+
+运行`mpv --register`注册到系统注册表，视频文件右键选择新增MPV应用程序。
+
+
 
 ![ icaros-np 视频/音频文件显示缩略图 ](https://img.shields.io/scoop/v/icaros-np?bucket=nonportable&label=icaros-np%20视频/音频文件显示缩略图)
 ```
