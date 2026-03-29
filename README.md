@@ -177,7 +177,7 @@ https://www.videohelp.com/download/Icaros_v3.3.4_b1.zip
 ```
 
 [![JPEGView 图像浏览器](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView-图像浏览器)](https://github.com/sylikc/jpegview/releases/latest)
-`scoop install jpegview-fork` —— `%SCOOP%\apps\jpegview-fork\current` 目录下JPEGView.ini 参考[配置](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JPEGView/JPEGView.ini%E8%AE%BE%E7%BD%AE.txt)
+`scoop install jpegview-fork` —— `%SCOOP%\apps\jpegview-fork\current` 目录下JPEGView.ini 参考[配置](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JPEGView.ini%E8%AE%BE%E7%BD%AE.txt)
 
 
 
