@@ -95,12 +95,15 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 
 [![ Bun ](https://img.shields.io/github/v/release/oven-sh/bun?label=Bun)](https://github.com/oven-sh/bun/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/oven-sh/bun/releases/latest/download/bun-windows-x64-baseline.zip)
+`scoop install Bun`
 
 [![ Deno ](https://img.shields.io/github/v/release/denoland/deno?label=Deno)](https://github.com/denoland/deno/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/denoland/deno/releases/latest/download/deno-x86_64-pc-windows-msvc.zip)
+`scoop install Deno`
 
 [![ Pixi ](https://img.shields.io/github/v/release/prefix-dev/pixi?label=Pixi)](https://github.com/prefix-dev/pixi/releases/latest)
 [![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/prefix-dev/pixi/releases/latest/download/pixi-x86_64-pc-windows-msvc.zip)
+`scoop install Pixi`
 
 [![ Node.js ](https://img.shields.io/github/v/release/nodejs/node?label=Node.js)](https://github.com/nodejs/node/releases/latest)
 `scoop install nodejs-lts`
@@ -206,7 +209,7 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 
 [![JPEGView 图像浏览器](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView-图像浏览器)](https://github.com/sylikc/jpegview/releases/latest)
 `scoop install jpegview-fork`
-目录下JPEGView.ini [配置参考](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JPEGView/JPEGView.ini%E8%AE%BE%E7%BD%AE.txt)
+目录下JPEGView.ini 参考[配置](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JPEGView/JPEGView.ini%E8%AE%BE%E7%BD%AE.txt)
 
 
 
@@ -247,12 +250,15 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 ---
 ### Python库
 
-[![最新 jupyterlab 版本](https://img.shields.io/github/v/release/jupyterlab/jupyterlab?label=jupyterlab)](https://github.com/jupyterlab/jupyterlab/releases/latest)
-`uv pip install jupyterlab`
+[![ JupyterLab 交互式开发环境 ](https://img.shields.io/github/v/release/jupyterlab/jupyterlab?label=JupyterLab%20交互式开发环境)](https://github.com/jupyterlab/jupyterlab/releases/latest)
+`uv pip install jupyterlab` —— 安装[扩展](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JupyterLab-%E6%89%A9%E5%B1%95.txt)
 
-[![Gradio 交互界面库](https://img.shields.io/github/v/release/gradio-app/gradio?label=Gradio-交互界面库)](https://github.com/gradio-app/gradio/releases/latest)
 
-[![最新 chroma 版本](https://img.shields.io/github/v/release/chroma-core/chroma?label=Chroma-向量数据库)](https://github.com/chroma-core/chroma/releases/latest)
+[![ Gradio 交互界面库 ](https://img.shields.io/github/v/release/gradio-app/gradio?label=Gradio%20交互界面库)](https://github.com/gradio-app/gradio/releases/latest)
+`uv pip install Gradio`
+
+[![ Chroma 向量数据库 ](https://img.shields.io/github/v/release/chroma-core/chroma?label=Chroma%20向量数据库)](https://github.com/chroma-core/chroma/releases/latest)
+`uv pip install Gradio`
 
 [![最新 huggingface_hub 版本](https://img.shields.io/github/v/release/huggingface/huggingface_hub?label=huggingface_hub)](https://github.com/huggingface/huggingface_hub/releases/latest)
 `uv pip install huggingface_hub[hf_xet]`
@@ -260,7 +266,7 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 
 
 
-[![Zensical 现代静态网站生成器](https://img.shields.io/github/v/release/zensical/zensical?label=Zensical-现代静态网站生成器)](https://github.com/zensical/zensical/releases/latest)
+[![Zensical 现代静态网站生成器](https://img.shields.io/github/v/release/zensical/zensical?label=Zensical%20现代静态网站生成器)](https://github.com/zensical/zensical/releases/latest)
 `uv pip install Zensical`
 
 
