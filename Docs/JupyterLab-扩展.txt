@@ -1,0 +1,29 @@
+# 安装 JupyterLab 主体
+jupyterlab
+
+# 中文语言包
+jupyterlab-language-pack-zh-CN
+
+# 代码格式化工具及扩展
+jupyterlab-code-formatter
+black
+isort
+
+# 数据分析常用库
+pandas
+
+# AI 插件  ‘jupyter-ai[all]’安装所有ai供应
+jupyter-ai
+
+# AI 插件配本地ollama
+langchain-ollama
+
+# 自动补全与代码提示
+jupyterlab-lsp
+jedi-language-server
+
+# 拼写检查
+jupyterlab-spellchecker 
+
+# 自动格式化
+jupyter-ruff
