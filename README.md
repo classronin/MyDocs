@@ -149,7 +149,22 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 `scoop install Blender`
 
 [![MPV 视频播放器](https://img.shields.io/github/v/release/mpv-player/mpv?label=MPV-视频播放器)](https://github.com/mpv-player/mpv/releases/latest)
-`scoop install mpv` 把[mpv.conf](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/mpv.conf)配置文件放在mpv目录下
+`scoop install mpv` 把[mpv.conf](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/mpv.conf)配置文件放在`%SCOOP%\apps\mpv\current\portable_config`目录下
+
+![ icaros-np 视频/音频文件显示缩略图 ](https://img.shields.io/scoop/v/icaros-np?bucket=nonportable&label=icaros-np%20视频/音频文件显示缩略图)
+```
+scoop bucket add nonportable
+scoop install nonportable/icaros-np
+注意 videohelp.com反抓，复制zip网址用迅雷下载，版本号参考scoop更新的icaros-np版本号
+https://www.videohelp.com/download/Icaros_v3.3.4_b1.zip
+```
+
+[![JPEGView 图像浏览器](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView-图像浏览器)](https://github.com/sylikc/jpegview/releases/latest)
+`scoop install jpegview-fork`
+目录下JPEGView.ini 参考[配置](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JPEGView/JPEGView.ini%E8%AE%BE%E7%BD%AE.txt)
+
+
+
 
 [![VLC 视频播放器](https://img.shields.io/github/v/tag/videolan/vlc?label=VLC-视频播放器)](https://github.com/videolan/vlc/tags)
 `scoop install vlc`
@@ -159,10 +174,10 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 
 ### 浏览器
 
-[![Ungoogled Chromium 去谷歌化的浏览器](https://img.shields.io/github/v/release/ungoogled-software/ungoogled-chromium-windows?label=Ungoogled-Chromium-去谷歌化的浏览器)](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/latest)
+[![ Ungoogled Chromium 去谷歌化的浏览器 ](https://img.shields.io/github/v/release/ungoogled-software/ungoogled-chromium-windows?label=Ungoogled-Chromium-去谷歌化的浏览器)](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/latest)
 `scoop install ungoogled-chromium`
 
-![Tor Browser 浏览器](https://img.shields.io/scoop/v/tor-browser?bucket=extras&label=Tor%20Browser-浏览器)
+![ Tor Browser 浏览器 ](https://img.shields.io/scoop/v/tor-browser?bucket=extras&label=Tor%20Browser-浏览器)
 `scoop install Tor-Browser`
 
 ### 浏览器插件
@@ -170,7 +185,7 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 [![ KISS Translator 简约翻译 ](https://img.shields.io/github/v/release/fishjar/kiss-translator?label=KISS%20Translator%20简约翻译)](https://github.com/fishjar/kiss-translator/releases/latest)
 
 
-[![ DarkReader-深色阅读器 ](https://img.shields.io/github/v/release/darkreader/darkreader?label=DarkReader%20深色阅读器)](https://github.com/darkreader/darkreader/releases/latest)
+[![ DarkReader 深色阅读器 ](https://img.shields.io/github/v/release/darkreader/darkreader?label=DarkReader%20深色阅读器)](https://github.com/darkreader/darkreader/releases/latest)
 
 
 [![ uBlock Origin 内容拦截器 ](https://img.shields.io/github/v/release/gorhill/uBlock?label=uBlock%20Origin%20内容拦截器)](https://github.com/gorhill/uBlock/releases/latest)
@@ -186,37 +201,33 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 [![ Stellarium 虚拟天文馆 ](https://img.shields.io/github/v/release/Stellarium/stellarium?label=Stellarium%20虚拟天文馆)](https://github.com/Stellarium/stellarium/releases/latest)
 `scoop install Stellarium`
 
-![Thunderbird 邮件](https://img.shields.io/scoop/v/thunderbird?bucket=extras&label=Thunderbird%20%E9%82%AE%E4%BB%B6)
+![ Thunderbird 邮件 ](https://img.shields.io/scoop/v/thunderbird?bucket=extras&label=Thunderbird%20%E9%82%AE%E4%BB%B6)
 `scoop install Thunderbird`
 
-[![ DeOldify.NET 黑白照片上彩](https://img.shields.io/github/v/release/ColorfulSoft/DeOldify.NET?label=DeOldify.NET%20黑白照片上彩)](https://github.com/ColorfulSoft/DeOldify.NET/releases/latest)
+[![ DeOldify.NET 黑白照片上彩 ](https://img.shields.io/github/v/release/ColorfulSoft/DeOldify.NET?label=DeOldify.NET%20黑白照片上彩)](https://github.com/ColorfulSoft/DeOldify.NET/releases/latest)
 [![下载 Windows 版](https://img.shields.io/badge/下载-Win)](https://github.com/ColorfulSoft/DeOldify.NET/releases/latest/download/DeOldify.NET.win.exe)
 
 
-[![GIMP 图像编辑器](https://img.shields.io/github/v/tag/GNOME/gimp?label=GIMP-图像编辑器)](https://github.com/GNOME/gimp/tags)
+[![ GIMP 图像编辑器 ](https://img.shields.io/github/v/tag/GNOME/gimp?label=GIMP-图像编辑器)](https://github.com/GNOME/gimp/tags)
 `scoop install GIMP`
 
-[![Notepad++ 文本编辑器](https://img.shields.io/github/v/release/notepad-plus-plus/notepad-plus-plus?label=Notepad%2B%2B-文本编辑器)](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest)
+[![ Notepad++ 文本编辑器 ](https://img.shields.io/github/v/release/notepad-plus-plus/notepad-plus-plus?label=Notepad%2B%2B-文本编辑器)](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/latest)
 `scoop install NotepadPlusPlus`
 
-[![Obsidian 笔记](https://img.shields.io/github/v/release/obsidianmd/obsidian-releases?label=Obsidian-笔记)](https://github.com/obsidianmd/obsidian-releases/releases/latest)
+[![ Obsidian 笔记 ](https://img.shields.io/github/v/release/obsidianmd/obsidian-releases?label=Obsidian-笔记)](https://github.com/obsidianmd/obsidian-releases/releases/latest)
 `scoop install Obsidian`
 
 
 
-[![最新 KeePassXC 密码管理器](https://img.shields.io/github/v/release/keepassxreboot/keepassxc?label=KeePassXC-密码管理器)](https://github.com/keepassxreboot/keepassxc/releases/latest)
+[![ KeePassXC 密码管理器 ](https://img.shields.io/github/v/release/keepassxreboot/keepassxc?label=KeePassXC-密码管理器)](https://github.com/keepassxreboot/keepassxc/releases/latest)
 `scoop install KeePassXC`
 
-[![JPEGView 图像浏览器](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView-图像浏览器)](https://github.com/sylikc/jpegview/releases/latest)
-`scoop install jpegview-fork`
-目录下JPEGView.ini 参考[配置](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JPEGView/JPEGView.ini%E8%AE%BE%E7%BD%AE.txt)
 
 
-
-[![LibreOffice版本](https://img.shields.io/github/v/tag/LibreOffice/core?label=LibreOffice-开源办公套件)](https://github.com/LibreOffice/core/tags)
+[![ LibreOffice 开源办公套件 ](https://img.shields.io/github/v/tag/LibreOffice/core?label=LibreOffice-开源办公套件)](https://github.com/LibreOffice/core/tags)
 `scoop install LibreOffice`
 
-[![最新 SumatraPDF 版本](https://img.shields.io/github/v/release/sumatrapdfreader/sumatrapdf?label=SumatraPDF-PDF阅读器)](https://github.com/sumatrapdfreader/sumatrapdf/releases/latest)
+[![ SumatraPDF PDF阅读器 ](https://img.shields.io/github/v/release/sumatrapdfreader/sumatrapdf?label=SumatraPDF-PDF阅读器)](https://github.com/sumatrapdfreader/sumatrapdf/releases/latest)
 `scoop install SumatraPDF`
 
 ![RapidEE](https://img.shields.io/scoop/v/rapidee?bucket=extras&label=RapidEE-环境变量工具)
