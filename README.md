@@ -139,6 +139,10 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 `scoop install BBDown`  下载视频命令:`BBDown <URL>`
 
 
+[ Verysync-微力同步 ](https://www.verysync.com/)
+
+
+
 ---
 
 ### 媒体处理工具
