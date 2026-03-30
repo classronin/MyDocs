@@ -175,12 +175,15 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 [![ Blender 3D建模含视频编辑 ](https://img.shields.io/github/v/tag/blender/blender?label=Blender%203D建模含视频编辑)](https://github.com/blender/blender/tags)
 `scoop install Blender`
 
-[![ MPV 视频播放器 ](https://img.shields.io/github/v/release/mpv-player/mpv?label=MPV%20视频播放器)](https://github.com/mpv-player/mpv/releases/latest)
-`scoop install mpv`
 
-把[mpv.conf](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/mpv.conf) 配置文件放在`%SCOOP%\apps\mpv\current\portable_config`目录下
-
-运行`mpv --register`注册到系统注册表，视频文件右键选择新增MPV应用程序。
+[![ MPC-BE 视频播放器 ](https://img.shields.io/github/v/release/Aleksoid1978/MPC-BE?label=MPC-BE%20视频播放器)](https://github.com/Aleksoid1978/MPC-BE/releases/latest)
+[![ MPC 渲染器 ](https://img.shields.io/github/v/release/Aleksoid1978/VideoRenderer?label=MPC%20渲染器)](https://github.com/Aleksoid1978/VideoRenderer/releases/latest)
+```
+scoop install mpc-be
+scoop bucket add 404NetworkError https://github.com/404NetworkError/scoop-bucket
+scoop install mpc-video-renderer-np
+安装完在MPC-BE-选项-视频-视频渲染器-MPC渲染器
+```
 
 
 
@@ -190,7 +193,7 @@ scoop bucket add nonportable
 scoop install nonportable/icaros-np
 注意 videohelp.com反抓，复制zip网址用迅雷下载，版本号参考scoop更新的icaros-np版本号
 https://www.videohelp.com/download/Icaros_v3.3.4_b1.zip
-运行icaros,在缩略图旁边添加选择类型的文件即可显示缩略图。
+运行icaros,在缩略图旁边添加选择类型的文件即可显示AVIF缩略图。
 ```
 
 [![JPEGView 图像浏览器](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView-图像浏览器)](https://github.com/sylikc/jpegview/releases/latest)
