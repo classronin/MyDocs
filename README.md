@@ -231,10 +231,15 @@ https://www.videohelp.com/download/Icaros_v3.3.4_b1.zip
 
 ---
 
+[![Scoop Version](https://img.shields.io/scoop/v/base64?label=Base64)](https://di-mgt.com.au/base64-for-windows.html)
+`scoop install main/base64`
 
 在线编码工具 —— 游戏保存数据解码编码
 [Base64 解码](https://www.base64decode.org)
 [Base64 编码](https://www.base64encode.org)
+
+
+
 
 
 ---
