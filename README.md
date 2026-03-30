@@ -58,7 +58,7 @@ bw https://.../10*.jpg   # 请输入网址模板 (使用 * 代替数字部分，
 
 ### Windows 缩略图
 
-[![ jxl-winthumb JPEG XL 缩略图  ](https://img.shields.io/github/v/release/saschanaz/jxl-winthumb?include_prereleases&label=JPEG%20XL%20缩略图)](https://github.com/astral-sh/uv/releases/latest)
+[![ jxl-winthumb JPEG XL 缩略图  ](https://img.shields.io/github/v/release/saschanaz/jxl-winthumb?include_prereleases&label=JPEG%20XL%20缩略图)](https://github.com/saschanaz/jxl-winthumb/releases)
 
 ```
 下载dll文件(arrch64/i686/x86_64)
@@ -184,12 +184,13 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 
 
 
-![ icaros-np 视频/音频文件显示缩略图 ](https://img.shields.io/scoop/v/icaros-np?bucket=nonportable&label=icaros-np%20视频/音频文件显示缩略图)
+[![ icaros-np 视频/音频文件显示缩略图 ](https://img.shields.io/scoop/v/icaros-np?bucket=nonportable&label=icaros-np%20视频/音频文件显示缩略图)](https://github.com/Xanashi/Icaros/releases/latest)
 ```
 scoop bucket add nonportable
 scoop install nonportable/icaros-np
 注意 videohelp.com反抓，复制zip网址用迅雷下载，版本号参考scoop更新的icaros-np版本号
 https://www.videohelp.com/download/Icaros_v3.3.4_b1.zip
+运行icaros,在缩略图旁边添加选择类型的文件即可显示缩略图。
 ```
 
 [![JPEGView 图像浏览器](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView-图像浏览器)](https://github.com/sylikc/jpegview/releases/latest)
