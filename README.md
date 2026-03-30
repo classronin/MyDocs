@@ -55,6 +55,20 @@ bw https://.../10*.jpg   # 请输入网址模板 (使用 * 代替数字部分，
 ```
 
 ---
+
+### Windows 缩略图
+
+[![ jxl-winthumb JPEG XL 缩略图  ](https://img.shields.io/github/v/release/saschanaz/jxl-winthumb?include_prereleases&label=JPEG%20XL%20缩略图)](https://github.com/astral-sh/uv/releases/latest)
+
+```
+下载dll文件(arrch64/i686/x86_64)
+regsvr32 jxl_winthumb_x86_64.dll     # 注册组件
+regsvr32 /u jxl_winthumb_x86_64.dll  # 卸载
+```
+
+
+---
+
 ### CLI
 
 ![ Clink 核心引擎 ](https://img.shields.io/scoop/v/clink-flex-prompt?label=Clink%20核心引擎)
