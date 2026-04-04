@@ -47,11 +47,15 @@ bs https://.../10*.jpg   # 请输入网址模板 (使用 * 代替数字部分，
 ![ Wget2 ](https://img.shields.io/scoop/v/wget2?label=Wget2)
 `scoop install wget2` 
 
-批量下载至CMD当前目录的路径 
-—— [BW.bat](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Scripts/Wget2/BW.bat)
+批量下载至CMD当前目录的路径,镜像github
+—— [W.bat](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Scripts/Wget2/W.bat)
 ```
-bw https://.../10*.jpg   # 请输入网址模板 (使用 * 代替数字部分，如 https://.../10*.jpg)
+w https://.../10*.jpg   # 请输入网址模板 (使用 * 代替数字部分，如 https://.../10*.jpg)
 01-21                    # 请输入数字范围 (格式如 01-21 )
+```
+在国内会自动把github.com变为镜像，举例，试试下[W.bat](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Scripts/Wget2/W.bat)
+```
+w https://github.com/rockdaboot/wget2/releases/latest/download/wget2.exe
 ```
 
 ---
