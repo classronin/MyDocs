@@ -325,5 +325,22 @@ https://www.videohelp.com/download/Icaros_v3.3.4_b1.zip
 
 
 
+---
+
+[ 查看DLL依赖 Dependencies ](https://github.com/lucasg/Dependencies)
+`scoop install extras/dependencies`
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
