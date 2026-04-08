@@ -15,7 +15,7 @@ CopyQ 主题 [CopyQ-GitHub-Theme](https://github.com/classronin/CopyQ-GitHub-The
 
 
 
-# [vcpkg](https://github.com/microsoft/vcpkg){target="_blank"} 设置镜像
+# [vcpkg](https://github.com/microsoft/vcpkg) 设置镜像
 路径：...\vcpkg\scripts\cmake\vcpkg_download_distfile.cmake 
 ```
 function(vcpkg_download_distfile out_var)
