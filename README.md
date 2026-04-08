@@ -1,7 +1,7 @@
 
 ---
 
-[![Scoop 版本](https://img.shields.io/github/v/release/ScoopInstaller/Scoop?label=Scoop)](https://github.com/ScoopInstaller/Scoop/releases/latest)
+### Scoop 经验 [官方](https://github.com/ScoopInstaller/Scoop/)
 
 ```
 # Scoop 环境配置
@@ -15,39 +15,29 @@ SCOOP_REPO=https://github.com/ScoopInstaller/Install
 SCOOP_REPO=https://ghfast.top/https://github.com/ScoopInstaller/Install
 SCOOP_REPO=https://gitee.com/glsnames/scoop-installer
 ```
-[Extras](https://github.com/ScoopInstaller/Extras) - [Main](https://github.com/ScoopInstaller/Main)
+
 
 
 ---
 
- ![ Wget2 ](https://img.shields.io/scoop/v/wget2?label=Wget2)
-`scoop install wget2` 
-
+### Wget2 经验
 批量下载至CMD当前目录的路径,镜像github
 —— [W.bat](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Scripts/Wget2/W.bat)
 ```
+scoop install wget2     # Scoop 安装 Wget2
 w https://.../10*.jpg   # 请输入网址模板 (使用 * 代替数字部分，如 https://.../10*.jpg)
-01-21                    # 请输入数字范围 (格式如 01-21 )
-```
-在国内会自动把github.com变为镜像，举例，试试下[W.bat](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Scripts/Wget2/W.bat)
-```
+01-21                   # 请输入数字范围 (格式如 01-21 )
+
+# 在国内会自动把github.com变为镜像
 w https://github.com/rockdaboot/wget2/releases/latest/download/wget2.exe
 ```
 
-
-![Aria2 版本](https://img.shields.io/scoop/v/aria2?label=Aria2)
-`scoop install aria2`
-
-![Surge 版本](https://img.shields.io/scoop/v/surge?label=Surge)
-`scoop install surge`
 
 
 ---
 
 ### Windows 缩略图
-
-[![ jxl-winthumb JPEG XL 缩略图  ](https://img.shields.io/github/v/release/saschanaz/jxl-winthumb?include_prereleases&label=JPEG%20XL%20缩略图)](https://github.com/saschanaz/jxl-winthumb/releases)
-
+JPEG XL 缩略图—— [下载dll](https://github.com/saschanaz/jxl-winthumb/releases)
 ```
 下载dll文件(arrch64/i686/x86_64)
 regsvr32 jxl_winthumb_x86_64.dll     # 注册组件
