@@ -185,31 +185,35 @@ scoop install extras/vlc
 ---
 
 ### 浏览器
+```
+Ungoogled Chromium - 去谷歌化的浏览器
+scoop install extras/ungoogled-chromium
 
-[![ Ungoogled Chromium 去谷歌化的浏览器 ](https://img.shields.io/github/v/release/ungoogled-software/ungoogled-chromium-windows?label=Ungoogled-Chromium-去谷歌化的浏览器)](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/latest)
-`scoop install ungoogled-chromium`
-
-![ Tor Browser 浏览器 ](https://img.shields.io/scoop/v/tor-browser?bucket=extras&label=Tor%20Browser-浏览器)
-`scoop install Tor-Browser`
+Tor Browser - 洋葱浏览器
+scoop install extras/tor-browser
+```
 
 ### 浏览器插件
 
-[![ KISS Translator 简约翻译 ](https://img.shields.io/github/v/release/fishjar/kiss-translator?label=KISS%20Translator%20简约翻译)](https://github.com/fishjar/kiss-translator/releases/latest)
+[ KISS Translator - 简约翻译 ](https://github.com/fishjar/kiss-translator)
+
+[ uBlock Origin - 内容拦截器 ](https://github.com/gorhill/uBlock/releases/latest)
+
+[ 猫抓(cat-catch) - HLS 视频下载工具](https://github.com/xifangczy/cat-catch)
 
 
-[![ DarkReader 深色阅读器 ](https://img.shields.io/github/v/release/darkreader/darkreader?label=DarkReader%20深色阅读器)](https://github.com/darkreader/darkreader/releases/latest)
 
+[ EditThisCookie - Cookie 管理器](https://github.com/ETCExtensions/Edit-This-Cookie)
 
-[![ uBlock Origin 内容拦截器 ](https://img.shields.io/github/v/release/gorhill/uBlock?label=uBlock%20Origin%20内容拦截器)](https://github.com/gorhill/uBlock/releases/latest)
-
+[ DarkReader - 深色阅读器 ](https://github.com/darkreader/darkreader/)
 
 [Video DownloadHelper 视频下载助手](https://github.com/aclap-dev/video-downloadhelper)
 
 ---
-
-[![Scoop Version](https://img.shields.io/scoop/v/base64?label=Base64)](https://di-mgt.com.au/base64-for-windows.html)
-`scoop install main/base64`
-
+```
+Base64 编码命令
+scoop install main/base64
+```
 在线编码工具 —— 游戏保存数据解码编码
 [Base64 解码](https://www.base64decode.org)
 [Base64 编码](https://www.base64encode.org)
@@ -220,9 +224,10 @@ scoop install extras/vlc
 
 ---
 ### 图形应用程序
-
-[![ Stellarium 虚拟天文馆 ](https://github.com/Stellarium/stellarium/releases/latest)
-`scoop install Stellarium`
+```
+Stellarium 虚拟天文馆
+scoop install extras/stellarium
+```
 
 ![ Thunderbird 邮件 ](https://img.shields.io/scoop/v/thunderbird?bucket=extras&label=Thunderbird%20%E9%82%AE%E4%BB%B6)
 `scoop install Thunderbird`
