@@ -160,6 +160,11 @@ scoop install extras/shotcut
 Blender 3D建模含视频编辑
 scoop install extras/blender
 -----------------------------------------
+MPV 媒体播放器
+scoop install extras/mpv
+'mpv' 建议安装 'yt-dlp'。
+scoop install main/yt-dlp
+-----------------------------------------
 MPC-BE 视频播放器
 scoop install extras/mpc-be
 MPC 渲染器
