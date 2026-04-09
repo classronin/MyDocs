@@ -171,15 +171,16 @@ icaros-np 视频/音频文件显示缩略图
 scoop bucket add nonportable
 scoop install nonportable/icaros-np
 运行icaros,在缩略图旁边添加选择类型的文件即可显示AVIF缩略图
--------------------------------------------------------
+-----------------------------------------
 JPEGView 图像浏览器
 scoop install extras/jpegview-fork
 %SCOOP%\apps\jpegview-fork\current 目录下JPEGView.ini 
-参考配置 https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JPEGView.ini%E8%AE%BE%E7%BD%AE.txt
-----------------------------------------------------------------------------------------------------------------------------------
+参考配置 
+https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JPEGView.ini%E8%AE%BE%E7%BD%AE.txt
+-----------------------------------------
 VLC 视频播放器
 scoop install extras/vlc
-----------------------------------------------------------------------------------
+-----------------------------------------
 ```
 
 ---
