@@ -147,21 +147,17 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 
 ### 媒体处理工具
 
-[![ FFmpeg 命令行音视频处理 ](https://img.shields.io/github/v/release/GyanD/codexffmpeg?label=FFmpeg%20命令行音视频处理)](https://github.com/GyanD/codexffmpeg/releases/latest)
-`scoop install ffmpeg`
+[ FFmpeg 命令行音视频处理 ](https://github.com/GyanD/codexffmpeg/)
+`scoop install main/ffmpeg`
 
-[![ HandBrake 视频转码 ](https://img.shields.io/github/v/release/HandBrake/HandBrake?label=HandBrake%20视频转码)](https://github.com/HandBrake/HandBrake/releases/latest)
-`scoop install HandBrake`
+[ LosslessCut 无损剪辑 ](https://github.com/mifi/lossless-cut/)
+`scoop install extras/losslesscut`
 
-[![ LosslessCut 无损剪辑 ](https://img.shields.io/github/v/release/mifi/lossless-cut?label=LosslessCut%20无损剪辑)](https://github.com/mifi/lossless-cut/releases/latest)
-[![Windows 64位](https://img.shields.io/badge/Win64-blue)](https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-win-x64.7z)
-`scoop install losslesscut`
+[ Shotcut 视频编辑 ](https://github.com/mltframework/shotcut/)
+`scoop install extras/shotcut`
 
-[![ Shotcut 视频编辑 ](https://img.shields.io/github/v/release/mltframework/shotcut?label=Shotcut%20视频编辑)](https://github.com/mltframework/shotcut/releases/latest)
-`scoop install shotcut`
-
-[![ Blender 3D建模含视频编辑 ](https://img.shields.io/github/v/tag/blender/blender?label=Blender%203D建模含视频编辑)](https://github.com/blender/blender/tags)
-`scoop install Blender`
+[ Blender 3D建模含视频编辑 ](https://github.com/blender/blender)
+`scoop install extras/blender`
 
 
 [![ MPC-BE 视频播放器 ](https://img.shields.io/github/v/release/Aleksoid1978/MPC-BE?label=MPC-BE%20视频播放器)](https://github.com/Aleksoid1978/MPC-BE/releases/latest)
@@ -233,7 +229,7 @@ https://www.videohelp.com/download/Icaros_v3.3.4_b1.zip
 ---
 ### 图形应用程序
 
-[![ Stellarium 虚拟天文馆 ](https://img.shields.io/github/v/release/Stellarium/stellarium?label=Stellarium%20虚拟天文馆)](https://github.com/Stellarium/stellarium/releases/latest)
+[![ Stellarium 虚拟天文馆 ](https://github.com/Stellarium/stellarium/releases/latest)
 `scoop install Stellarium`
 
 ![ Thunderbird 邮件 ](https://img.shields.io/scoop/v/thunderbird?bucket=extras&label=Thunderbird%20%E9%82%AE%E4%BB%B6)
@@ -293,6 +289,9 @@ https://www.videohelp.com/download/Icaros_v3.3.4_b1.zip
 [![最新 open-webui 版本](https://img.shields.io/github/v/release/open-webui/open-webui?label=open-webui)](https://github.com/open-webui/open-webui/releases/latest)
 `uv pip install open-webui`
 
+[ OpenCode 开源 AI 编程代理 ](https://github.com/anomalyco/opencode)
+`scoop install extras/opencode-desktop`
+
 ---
 ### Python库
 
@@ -312,7 +311,7 @@ https://www.videohelp.com/download/Icaros_v3.3.4_b1.zip
 
 
 
-[![Zensical 现代静态网站生成器](https://img.shields.io/github/v/release/zensical/zensical?label=Zensical%20现代静态网站生成器)](https://github.com/zensical/zensical/releases/latest)
+[Zensical 现代静态网站生成器](https://github.com/zensical/zensical/releases/latest)
 `uv pip install Zensical`
 
 
@@ -321,12 +320,12 @@ https://www.videohelp.com/download/Icaros_v3.3.4_b1.zip
 
 ### Android
 
-[![ Trail Sense 迹感 ](https://img.shields.io/github/v/release/kylecorry31/Trail-Sense?label=Trail%20Sense%20迹感)](https://github.com/kylecorry31/Trail-Sense/releases/latest)
+[ Trail Sense 迹感 ](https://github.com/kylecorry31/Trail-Sense/releases/latest)
 
 
 
 ---
-[![ Dependencies 查看DLL依赖 ](https://img.shields.io/github/v/release/lucasg/Dependencies?label=Dependencies%20查看DLL依赖)](https://github.com/lucasg/Dependencies/releases/latest)
+[ Dependencies 查看DLL依赖 ](https://github.com/lucasg/Dependencies/releases/latest)
 `scoop install extras/dependencies`
 
 
