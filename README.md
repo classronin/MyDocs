@@ -146,49 +146,41 @@ E:\AppData\uv\bin # 添到 环境 系统变量 PATH
 ---
 
 ### 媒体处理工具
-
-[ FFmpeg 命令行音视频处理 ](https://github.com/GyanD/codexffmpeg/)
-`scoop install main/ffmpeg`
-
-[ LosslessCut 无损剪辑 ](https://github.com/mifi/lossless-cut/)
-`scoop install extras/losslesscut`
-
-[ Shotcut 视频编辑 ](https://github.com/mltframework/shotcut/)
-`scoop install extras/shotcut`
-
-[ Blender 3D建模含视频编辑 ](https://github.com/blender/blender)
-`scoop install extras/blender`
-
-
-[![ MPC-BE 视频播放器 ](https://img.shields.io/github/v/release/Aleksoid1978/MPC-BE?label=MPC-BE%20视频播放器)](https://github.com/Aleksoid1978/MPC-BE/releases/latest)
-[![ MPC 渲染器 ](https://img.shields.io/github/v/release/Aleksoid1978/VideoRenderer?label=MPC%20渲染器)](https://github.com/Aleksoid1978/VideoRenderer/releases/latest)
 ```
-scoop install mpc-be
+-----------------------------------------
+FFmpeg 命令行音视频处理
+scoop install main/ffmpeg
+-----------------------------------------
+LosslessCut 无损剪辑
+scoop install extras/losslesscut
+-----------------------------------------
+Shotcut 视频编辑
+scoop install extras/shotcut
+-----------------------------------------
+Blender 3D建模含视频编辑
+scoop install extras/blender
+-----------------------------------------
+MPC-BE 视频播放器
+scoop install extras/mpc-be
+MPC 渲染器
 scoop bucket add 404NetworkError https://github.com/404NetworkError/scoop-bucket
 scoop install mpc-video-renderer-np
 安装完在MPC-BE-选项-视频-视频渲染器-MPC渲染器
-```
-
-
-
-[![ icaros-np 视频/音频文件显示缩略图 ](https://img.shields.io/scoop/v/icaros-np?bucket=nonportable&label=icaros-np%20视频/音频文件显示缩略图)](https://github.com/Xanashi/Icaros/releases/latest)
-```
+------------------------------------------
+icaros-np 视频/音频文件显示缩略图
 scoop bucket add nonportable
 scoop install nonportable/icaros-np
-注意 videohelp.com反抓，复制zip网址用迅雷下载，版本号参考scoop更新的icaros-np版本号
-https://www.videohelp.com/download/Icaros_v3.3.4_b1.zip
-运行icaros,在缩略图旁边添加选择类型的文件即可显示AVIF缩略图。
+运行icaros,在缩略图旁边添加选择类型的文件即可显示AVIF缩略图
+-------------------------------------------------------
+JPEGView 图像浏览器
+scoop install extras/jpegview-fork
+%SCOOP%\apps\jpegview-fork\current 目录下JPEGView.ini 
+参考配置 https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JPEGView.ini%E8%AE%BE%E7%BD%AE.txt
+----------------------------------------------------------------------------------------------------------------------------------
+VLC 视频播放器
+scoop install extras/vlc
+----------------------------------------------------------------------------------
 ```
-
-[![JPEGView 图像浏览器](https://img.shields.io/github/v/release/sylikc/jpegview?label=JPEGView-图像浏览器)](https://github.com/sylikc/jpegview/releases/latest)
-`scoop install jpegview-fork` —— `%SCOOP%\apps\jpegview-fork\current` 目录下JPEGView.ini 参考[配置](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Docs/JPEGView.ini%E8%AE%BE%E7%BD%AE.txt)
-
-
-
-
-[![VLC 视频播放器](https://img.shields.io/github/v/tag/videolan/vlc?label=VLC-视频播放器)](https://github.com/videolan/vlc/tags)
-`scoop install vlc`
-
 
 ---
 
