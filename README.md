@@ -163,7 +163,7 @@ scoop install extras/blender
 MPV 媒体播放器
 scoop install extras/mpv
 'mpv' 建议安装 'yt-dlp'。
-scoop install main/yt-dlp
+scoop install main/yt-dlp versions/ffmpeg-yt-dlp-nightly
 -----------------------------------------
 MPC-BE 视频播放器
 scoop install extras/mpc-be
