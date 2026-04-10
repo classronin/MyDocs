@@ -160,6 +160,9 @@ scoop install extras/shotcut
 Blender 3D建模含视频编辑
 scoop install extras/blender
 -----------------------------------------
+Ruffle —— Adobe Flash Player 模拟器 (SWF格式文件) 和 网页
+scoop install versions/ruffle-nightly
+-----------------------------------------
 MPV 媒体播放器
 scoop install extras/mpv
 'mpv' 建议安装 'yt-dlp'。
