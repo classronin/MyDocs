@@ -21,7 +21,7 @@ SCOOP_REPO=https://gitee.com/glsnames/scoop-installer
 ---
 
 ### Wget2 经验
-批量下载至CMD当前目录的路径,镜像github
+批量下载至CMD当前目录的路径还有镜像github
 —— [W.bat](https://raw.githubusercontent.com/classronin/MyDocs/refs/heads/main/Scripts/Wget2/W.bat)
 ```
 scoop install wget2     # Scoop 安装 Wget2
