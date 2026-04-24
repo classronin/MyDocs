@@ -54,6 +54,12 @@ regsvr32 jxl_winthumb_x86_64.dll     # 注册组件
 regsvr32 /u jxl_winthumb_x86_64.dll  # 卸载
 ```
 
+SVG 缩略图
+```
+scoop install nonportable/svg-explorer-extension-np
+```
+
+
 
 ---
 
@@ -178,7 +184,7 @@ scoop install mpc-video-renderer-np
 icaros-np 视频/音频文件显示缩略图
 scoop bucket add nonportable
 scoop install nonportable/icaros-np
-运行icaros,在缩略图旁边添加选择类型的文件即可显示AVIF缩略图
+运行 icaros,在缩略图旁边添加选择 AVIF 类型的文件即可显示 AVIF 缩略图
 -----------------------------------------
 JPEGView 图像浏览器
 scoop install extras/jpegview-fork
