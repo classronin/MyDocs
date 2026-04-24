@@ -59,6 +59,7 @@ SVG 缩略图
 scoop install nonportable/svg-explorer-extension-np
 ```
 
+WebP 缩略图 [WebpCodecSetup.exe](https://storage.googleapis.com/downloads.webmproject.org/releases/webp/WebpCodecSetup.exe) 安装完事
 
 
 ---
